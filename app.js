@@ -34,16 +34,40 @@ function pickVoice() {
     || vs.find((v) => /en[-_]US/i.test(v.lang)) || vs[0] || null;
 }
 if ('speechSynthesis' in window) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+// iOS Safari notes:
+//  - speech must first be started inside a tap; we "unlock" it on the very first touch.
+//  - calling cancel() right before speak() can silently drop the new utterance, so only cancel when busy.
+//  - the ring/silent switch mutes this voice, so we show a hint if nothing starts playing.
+let ttsUnlocked = false;
+function unlockTTS() {
+  if (ttsUnlocked || !('speechSynthesis' in window)) return;
+  ttsUnlocked = true;
+  const u = new SpeechSynthesisUtterance(' ');
+  u.volume = 0;
+  speechSynthesis.speak(u);
+}
+document.addEventListener('touchend', unlockTTS, { once: true, capture: true });
+document.addEventListener('click', unlockTTS, { once: true, capture: true });
+
 function say(text) {
   return new Promise((res) => {
-    if (!('speechSynthesis' in window)) return res();
-    speechSynthesis.cancel();
+    if (!('speechSynthesis' in window)) { toast('This browser cannot speak. Use Safari.'); return res(); }
+    if (speechSynthesis.speaking || speechSynthesis.pending) speechSynthesis.cancel();
+    if (!voice) pickVoice();
     const u = new SpeechSynthesisUtterance(text);
     if (voice) u.voice = voice;
     u.lang = voice?.lang || 'en-US';
     u.rate = settings.rate;
-    u.onend = u.onerror = () => res();
+    u.volume = 1;
+    let started = false;
+    u.onstart = () => { started = true; };
+    u.onend = () => { started = true; res(); };
+    u.onerror = (e) => { if (e.error !== 'interrupted' && e.error !== 'canceled') toast('Speech error: ' + e.error); res(); };
     speechSynthesis.speak(u);
+    if (speechSynthesis.paused) speechSynthesis.resume();
+    setTimeout(() => {
+      if (!started && !speechSynthesis.speaking) toast('No sound? Turn off Silent mode and turn the volume up.');
+    }, 2500);
   });
 }
 
@@ -152,6 +176,8 @@ function renderAnswerArea() {
     ${canListen ? `
       <button class="mic ${listening ? 'live' : ''}" id="micBtn">${listening ? '⏹ Done' : '🎤 Tap and spell'}</button>
       <div class="heard" id="heard">${q.parsed ? esc(q.parsed.display || '…') : (listening ? 'Listening…' : '&nbsp;')}</div>
+      <div class="raw" id="micStatus">${listening ? esc(q.micStatus || '⏳ starting mic…') : (q.micStatus && q.micStatus.startsWith('⚠️') ? esc(q.micStatus) : '')}</div>
+      <div class="raw" id="rawHeard">${q.transcript ? 'raw: “' + esc(q.transcript) + '”' : ''}</div>
       ${q.parsed && !listening ? `
         ${q.parsed.wholeWord ? `<p class="warnmsg">I heard a whole word (“${esc(q.parsed.unknown.join(' '))}”), not letters.<br>Please spell it letter by letter.</p>` : ''}
         <div class="row">
@@ -185,16 +211,32 @@ function startListening() {
   rec.lang = 'en-US'; rec.continuous = true; rec.interimResults = true; rec.maxAlternatives = 1;
   const base = q.transcript;   // keep what was said before a pause
   userStopped = false;
+  const status = (msg) => { q.micStatus = msg; const el = document.getElementById('micStatus'); if (el) el.textContent = msg; };
+  rec.onstart = () => status('🎙️ mic on — start spelling');
+  rec.onaudiostart = () => status('🎙️ hearing audio…');
+  rec.onspeechstart = () => status('🗣️ hearing your voice…');
   rec.onresult = (e) => {
-    let t = '';
-    for (let i = 0; i < e.results.length; i++) t += ' ' + e.results[i][0].transcript;
-    q.transcript = (base + ' ' + t).trim();
+    // Safari on iPhone sometimes repeats earlier text inside later results; keep only the longest version.
+    const parts = [];
+    for (let i = 0; i < e.results.length; i++) {
+      const tr = e.results[i][0].transcript.trim();
+      if (!tr) continue;
+      const last = parts[parts.length - 1];
+      if (last && tr.toLowerCase().startsWith(last.toLowerCase())) parts[parts.length - 1] = tr;
+      else if (last && last.toLowerCase().startsWith(tr.toLowerCase())) continue;
+      else parts.push(tr);
+    }
+    q.transcript = (base + ' ' + parts.join(' ')).trim();
     q.parsed = parseTranscript(q.transcript, quiz.word.word);
     const h = document.getElementById('heard'); if (h) h.textContent = q.parsed.display || '…';
+    const raw = document.getElementById('rawHeard'); if (raw) raw.textContent = 'raw: “' + q.transcript + '”';
+    status('🗣️ got it — tap Done when finished');
   };
   rec.onerror = (e) => {
-    if (e.error === 'not-allowed' || e.error === 'service-not-allowed') toast('Microphone is blocked. Allow it in Settings → Safari → Microphone.');
-    else if (e.error !== 'no-speech' && e.error !== 'aborted') toast('Mic error: ' + e.error);
+    status('⚠️ mic error: ' + e.error);
+    if (e.error === 'not-allowed' || e.error === 'service-not-allowed') toast('Mic or Siri & Dictation is off. See the setup tips.');
+    else if (e.error === 'no-speech') toast('I didn’t hear anything. Speak a little louder and closer.');
+    else if (e.error !== 'aborted') toast('Mic error: ' + e.error);
   };
   rec.onend = () => {
     listening = false; rec = null;
@@ -347,7 +389,11 @@ function renderSettings() {
         <select id="voiceSel"><option value="">Automatic (US English)</option>
           ${voices.map((v) => `<option value="${esc(v.voiceURI)}" ${v.voiceURI === settings.voiceURI ? 'selected' : ''}>${esc(v.name)} (${esc(v.lang)})</option>`).join('')}
         </select></label>
-      <button class="mid" id="testVoice">🔊 Test voice</button>
+      <div class="row">
+        <button class="mid" id="testVoice">🔊 Test voice</button>
+        ${canListen ? '<button class="mid" id="testMic">🎤 Test mic</button>' : ''}
+      </div>
+      <div class="raw" id="micTestOut"></div>
       <label>“Slow start” counts as hard after (seconds)
         <input type="number" id="think" min="3" max="60" value="${settings.thinkSeconds}"></label>
       <label>Correct in a row to graduate from notebook
@@ -359,6 +405,19 @@ function renderSettings() {
   rate.oninput = () => { settings.rate = +rate.value; document.getElementById('rateV').textContent = rate.value; saveSettings(); };
   document.getElementById('voiceSel').onchange = (e) => { settings.voiceURI = e.target.value; saveSettings(); pickVoice(); };
   document.getElementById('testVoice').onclick = () => say('Spell rendezvous');
+  const tm = document.getElementById('testMic');
+  if (tm) tm.onclick = () => {
+    const out = document.getElementById('micTestOut');
+    const r = new SR(); r.lang = 'en-US'; r.continuous = true; r.interimResults = true;
+    const log = []; const show = (m) => { log.push(m); out.textContent = log.join(' → '); };
+    r.onstart = () => show('mic on: say “B, E, A, C, H”');
+    r.onspeechstart = () => show('voice detected');
+    r.onresult = (e) => { let t = ''; for (let i = 0; i < e.results.length; i++) t += ' ' + e.results[i][0].transcript;
+      out.textContent = log.join(' → ') + ' → heard: “' + t.trim() + '” = ' + (parseTranscript(t, 'beach').display || '(no letters)'); };
+    r.onerror = (e) => show('error: ' + e.error);
+    r.onend = () => show('mic off');
+    try { r.start(); setTimeout(() => { try { r.stop(); } catch {} }, 7000); } catch (x) { show('could not start: ' + x.message); }
+  };
   document.getElementById('think').onchange = (e) => { settings.thinkSeconds = Math.max(3, +e.target.value || 8); saveSettings(); };
   document.getElementById('grad').onchange = (e) => { settings.graduateAfter = Math.max(1, +e.target.value || 3); saveSettings(); };
   const lo = document.getElementById('logout'); if (lo) lo.onclick = () => store.logout();

@@ -42,7 +42,12 @@ export function lettersOnly(s) {
 //   wholeWord = true when the recognizer seems to have auto-corrected the answer into
 //   a normal word instead of individual letters — such a result must NOT be graded.
 export function parseTranscript(transcript, targetWord) {
-  let t = transcript.toLowerCase()
+  // iPhone dictation often writes spelled letters as "B-E-A-C-H", "B.E.A.C.H" or "BEACH" (all caps).
+  // Split those into single letters BEFORE lowercasing, so they are not mistaken for an auto-corrected word.
+  let t0 = transcript
+    .replace(/\b([A-Za-z])(?:[-.]([A-Za-z]))+\b\.?/g, (m) => ' ' + m.replace(/[-.]/g, ' ') + ' ')
+    .replace(/\b[A-Z]{2,}\b/g, (m) => ' ' + m.split('').join(' ') + ' ');
+  let t = t0.toLowerCase()
     .replace(/[.,!?;:"]/g, ' ')
     .replace(/\bdouble[\s-]?(you|u|ewe)\b/g, ' w ')
     .replace(/\bcapital\b/g, ' ')

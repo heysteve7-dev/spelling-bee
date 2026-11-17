@@ -52,3 +52,4 @@ button.link { background: none; padding: 4px 0; font-weight: 600; }
 .wrongtxt { color: var(--bad); font-family: ui-monospace, Menlo, monospace; }
 .toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom)); transform: translateX(-50%);
   background: var(--ink); color: #fff; padding: 12px 18px; border-radius: 14px; font-size: 16px; z-index: 9; max-width: 90vw; }
+.raw { margin-top: 4px; font-size: 13px; color: var(--muted); min-height: 16px; word-break: break-word; }
