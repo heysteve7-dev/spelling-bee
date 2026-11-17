@@ -1,7 +1,7 @@
 import { parseTranscript, isCorrect, spelledOut } from './grader.js';
 import { store, dayKey } from './store.js';
 
-export const APP_VERSION = '1.3.1';
+export const APP_VERSION = '1.3.2';
 
 // ───────────────────────── settings (per device) ─────────────────────────
 const DEFAULTS = { v: 2, wordRate: 0.7, talkRate: 0.8, pauseMs: 700, spellVolume: 0.55, thinkSeconds: 8, graduateAfter: 2, voiceURI: '' };
@@ -131,7 +131,7 @@ async function hardRefresh() {
 let currentLevel = localStorage.getItem('sb_level') || 'One Bee';
 
 function renderHome() {
-  stopListening(); $home.hidden = true;
+  dropRec(); $home.hidden = true;
   const nf = focusWords().length;
   const today = store.days[dayKey()] || { total: 0, correct: 0 };
   const lvlStats = [...LEVELS, 'All'].map((l) => {
@@ -206,7 +206,7 @@ function startQuiz(mode) {
 }
 
 function nextQuestion() {
-  stopListening();
+  dropRec();
   const w = pickNext();
   if (!w) { toast('No focus words left — great job! 🎉'); return renderHome(); }
   quiz.word = w; quiz.asked.add(w.id); quiz.recent.push(w.id); quiz.count++;
@@ -307,49 +307,68 @@ const typeForm = () => `
 // so the child can just keep talking — no typing needed.
 function combine(q) {
   const sp = q.session?.parsed;
-  const letters = (q.baseLetters || '') + (sp?.letters || '');
-  let unknown = sp?.unknown || [];
-  if (q.baseLetters) { // saying the word itself after spelling (in a new session) is fine
+  const sLetters = sp?.letters || '';
+  const off = Math.min(q.session?.offset || 0, sLetters.length);
+  const letters = (q.baseLetters || '') + sLetters.slice(off);
+  let unknown = (sp?.unknown || []).slice(q.session?.unknownOffset || 0);
+  if (q.baseLetters) { // saying the word itself after spelling is fine
     const target = quiz.word.word.toLowerCase();
     unknown = unknown.filter((u) => !target.split(/[\s-]+/).includes(u));
   }
   q.parsed = { letters, display: letters.toUpperCase().split('').join(' '), unknown,
-    wholeWord: !letters && !!sp?.wholeWord };
+    wholeWord: !letters && !!sp?.wholeWord && unknown.length > 0 };
   return q.parsed;
 }
 function showLive(q) {
   const h = document.getElementById('heard'); if (h) h.textContent = q.parsed?.display || (listening ? 'Listening…' : '');
-  const raw = document.getElementById('rawHeard'); if (raw) raw.textContent = q.session?.transcript ? 'raw: “' + q.session.transcript + '”' : '';
+  const raw = document.getElementById('rawHeard'); const t = q.session?.transcript || q.lastRaw;
+  if (raw) raw.textContent = t ? 'raw: “' + t + '”' : '';
   const fr = document.getElementById('fixRow'); if (fr) fr.hidden = !(q.parsed?.letters || listening);
 }
-function applyFix(q, action) {
-  if (action === 'undo') q.baseLetters = (q.baseLetters || '').slice(0, -1);
-  if (action === 'clear') q.baseLetters = '';
-  q.session = null; q.lastRaw = ''; combine(q);
-  if (!q.baseLetters) q.parsed = null;
-}
+// Undo / Start over.
+// iPhone Safari only lets the mic start from a direct tap, so we never restart the mic in the background.
+//  • mic on:  keep it running; just mark how much of what it heard is "used up" and continue after it
+//  • mic off: fix the letters and turn the mic on right away (still inside the tap)
 function fixSpelling(action) {
   const q = quiz.q;
-  if (listening && rec) { q.pending = action; try { rec.abort(); } catch { try { rec.stop(); } catch {} } return; }
-  applyFix(q, action);
+  const current = combine(q).letters;
+  q.baseLetters = action === 'undo' ? current.slice(0, -1) : '';
+  if (listening && q.session) {
+    q.session.offset = q.session.parsed?.letters.length || 0;
+    q.session.unknownOffset = q.session.parsed?.unknown.length || 0;
+    q.session.transcript = '';   // only the raw display; letters come from parsed + offset
+    combine(q); if (!q.parsed.letters) q.parsed = null;
+    showLive(q); renderAnswerArea();
+    return;
+  }
+  q.session = null; q.lastRaw = '';
+  combine(q); if (!q.parsed.letters) q.parsed = null;
   startListening();
 }
 
 let rec = null, listening = false, userStopped = false;
+// Fully forget a mic session (also used when the browser never reports that it ended).
+function dropRec() {
+  if (rec) { const r = rec; r.onresult = r.onend = r.onerror = r.onstart = r.onaudiostart = r.onspeechstart = null; try { r.abort(); } catch {} }
+  rec = null; listening = false;
+}
 function startListening() {
   const q = quiz.q;
   if (!q.answeredAt) q.answeredAt = Date.now();
   stopSpeaking();
-  rec = new SR();
-  rec.lang = 'en-US'; rec.continuous = true; rec.interimResults = true; rec.maxAlternatives = 1;
-  q.session = { transcript: '', parsed: null };
-  q.pending = null;
+  dropRec();
+  const r = new SR();
+  rec = r;
+  r.lang = 'en-US'; r.continuous = true; r.interimResults = true; r.maxAlternatives = 1;
+  q.session = { transcript: '', parsed: null, offset: 0, unknownOffset: 0, rawAll: '' };
   userStopped = false;
+  let started = false, ended = false;
   const status = (msg) => { q.micStatus = msg; const el = document.getElementById('micStatus'); if (el) el.textContent = msg; };
-  rec.onstart = () => status('🎙️ mic on — start spelling');
-  rec.onaudiostart = () => status('🎙️ hearing audio…');
-  rec.onspeechstart = () => status('🗣️ hearing your voice…');
-  rec.onresult = (e) => {
+  r.onstart = () => { started = true; status('🎙️ mic on — start spelling'); };
+  r.onaudiostart = () => { started = true; status('🎙️ hearing audio…'); };
+  r.onspeechstart = () => status('🗣️ hearing your voice…');
+  r.onresult = (e) => {
+    started = true;
     // Safari on iPhone sometimes repeats earlier text inside later results; keep only the longest version.
     const parts = [];
     for (let i = 0; i < e.results.length; i++) {
@@ -360,46 +379,57 @@ function startListening() {
       else if (last && last.toLowerCase().startsWith(tr.toLowerCase())) continue;
       else parts.push(tr);
     }
-    if (!q.session) return;
-    q.session.transcript = parts.join(' ').trim();
-    q.session.parsed = parseTranscript(q.session.transcript, quiz.word.word);
+    if (!q.session || rec !== r) return;
+    const full = parts.join(' ').trim();
+    q.session.rawAll = full;
+    q.session.parsed = parseTranscript(full, quiz.word.word);
+    q.session.transcript = full;
     combine(q); showLive(q);
     status('🗣️ got it — tap Done when finished');
   };
-  rec.onerror = (e) => {
+  r.onerror = (e) => {
     if (e.error === 'aborted') return;
     status('⚠️ mic error: ' + e.error);
     if (e.error === 'not-allowed' || e.error === 'service-not-allowed') toast('Mic or Siri & Dictation is off. See the setup tips.');
     else if (e.error === 'no-speech') toast('I didn’t hear anything. Speak a little louder and closer.');
     else toast('Mic error: ' + e.error);
   };
-  rec.onend = () => {
-    listening = false; rec = null;
+  const finish = () => {
+    if (ended || rec !== r) return;
+    ended = true;
+    dropRec();
     if (quiz?.q !== q) return;
-    // keep what this session heard
-    if (q.session?.transcript) q.transcriptAll = ((q.transcriptAll || '') + ' | ' + q.session.transcript).replace(/^ \| /, '');
+    if (q.session?.rawAll) q.transcriptAll = ((q.transcriptAll || '') + ' | ' + q.session.rawAll).replace(/^ \| /, '');
     combine(q);
-    if (!q.parsed.wholeWord) q.baseLetters = q.parsed.letters;
-    // the session's letters now live in baseLetters; keep only its raw text for display
-    const sessWhole = q.parsed.wholeWord, sessUnknown = q.parsed.unknown;
-    q.lastRaw = q.session?.transcript || q.lastRaw || '';
+    const whole = q.parsed.wholeWord, unk = q.parsed.unknown;
+    if (!whole) q.baseLetters = q.parsed.letters;
+    q.lastRaw = q.session?.rawAll || '';
     q.session = null; combine(q);
-    q.parsed.wholeWord = sessWhole; q.parsed.unknown = sessUnknown;
-    if (q.pending) { const a = q.pending; applyFix(q, a); renderAnswerArea(); setTimeout(() => { if (quiz?.q === q && !q.result) startListening(); }, 250); return; }
-    if (userStopped && q.parsed.letters && !q.parsed.wholeWord && !q.parsed.unknown.length) return grade(q.parsed.letters, 'voice');
-    if (!q.parsed.letters && !q.parsed.wholeWord) q.parsed = null;
+    q.parsed.wholeWord = whole; q.parsed.unknown = unk;
+    if (userStopped && q.parsed.letters && !whole && !unk.length) return grade(q.parsed.letters, 'voice');
+    if (!q.parsed.letters && !whole) q.parsed = null;
     renderAnswerArea();
   };
-  try { rec.start(); listening = true; } catch (err) { toast('Could not start the mic'); }
+  r.onend = finish;
+  r._finish = finish;
+  try { r.start(); listening = true; }
+  catch (err) { dropRec(); status('⚠️ Mic didn’t start — tap the mic again'); toast('Could not start the mic. Tap 🎤 again.'); }
+  // If the mic never really starts (no events at all), don't stay stuck in "listening".
+  setTimeout(() => { if (rec === r && !started) { status('⚠️ Mic didn’t start — tap the mic again'); finish(); } }, 4000);
   renderAnswerArea();
 }
 function stopListening(byUser = false) {
-  if (rec) { userStopped = byUser; try { rec.stop(); } catch {} }
+  if (!rec) { listening = false; return; }
+  const r = rec;
+  userStopped = byUser;
+  try { r.stop(); } catch {}
+  // Safari sometimes never sends "end" — finish ourselves after a moment.
+  setTimeout(() => { if (rec === r) r._finish?.(); }, 1500);
 }
 
 function grade(answer, method) {
   const q = quiz.q, w = quiz.word;
-  stopListening();
+  dropRec();
   q.method = method;
   q.answer = answer;
   q.result = isCorrect(answer, w) ? 'correct' : 'wrong';
@@ -478,7 +508,7 @@ function commit() {
     method: q.method, override: q.override || null, replays: q.replays, thinkSec: q.thinkSec ?? null, hard: q.hard, transcript: q.transcriptAll || '' });
 }
 
-function leaveQuiz() { commit(); stopListening(); stopSpeaking(); }
+function leaveQuiz() { commit(); dropRec(); stopSpeaking(); }
 
 // ───────────────────────── focus words ─────────────────────────
 function renderFocus() {
