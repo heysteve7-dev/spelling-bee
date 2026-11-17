@@ -1,0 +1,5979 @@
+{
+  "meta": {
+    "source": "Scripps National Spelling Bee — 2026-2027 School Spelling Bee Study List (6 scanned pages)",
+    "event": "Bee Cave Elementary Spelling Bee, 2026-12-15",
+    "total_entries": 450,
+    "counts": {
+      "One Bee": 150,
+      "Two Bee": 150,
+      "Three Bee": 150
+    },
+    "legend": {
+      "*": "British spelling",
+      "**": "Preferred spelling"
+    },
+    "method": "Per-word visual transcription cross-checked against Tesseract OCR; all 450 entries matched except two OCR misreads (ran, piñata) resolved visually."
+  },
+  "words": [
+    {
+      "id": 1,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "ran",
+      "word_plain": "ran",
+      "accepted_spellings": [
+        "ran"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 2,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "wind",
+      "word_plain": "wind",
+      "accepted_spellings": [
+        "wind"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 3,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "leg",
+      "word_plain": "leg",
+      "accepted_spellings": [
+        "leg"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 4,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "dirt",
+      "word_plain": "dirt",
+      "accepted_spellings": [
+        "dirt"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 5,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "rod",
+      "word_plain": "rod",
+      "accepted_spellings": [
+        "rod"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 6,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "good",
+      "word_plain": "good",
+      "accepted_spellings": [
+        "good"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 7,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "most",
+      "word_plain": "most",
+      "accepted_spellings": [
+        "most"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 8,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "hurt",
+      "word_plain": "hurt",
+      "accepted_spellings": [
+        "hurt"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 9,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "shy",
+      "word_plain": "shy",
+      "accepted_spellings": [
+        "shy"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 10,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "bunny",
+      "word_plain": "bunny",
+      "accepted_spellings": [
+        "bunny"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 11,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "down",
+      "word_plain": "down",
+      "accepted_spellings": [
+        "down"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 12,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "steps",
+      "word_plain": "steps",
+      "accepted_spellings": [
+        "steps"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 13,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "drink",
+      "word_plain": "drink",
+      "accepted_spellings": [
+        "drink"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 14,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "silly",
+      "word_plain": "silly",
+      "accepted_spellings": [
+        "silly"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 15,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "sick",
+      "word_plain": "sick",
+      "accepted_spellings": [
+        "sick"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 16,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "path",
+      "word_plain": "path",
+      "accepted_spellings": [
+        "path"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 17,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "mist",
+      "word_plain": "mist",
+      "accepted_spellings": [
+        "mist"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 18,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "stars",
+      "word_plain": "stars",
+      "accepted_spellings": [
+        "stars"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 19,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "truck",
+      "word_plain": "truck",
+      "accepted_spellings": [
+        "truck"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 20,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "fire",
+      "word_plain": "fire",
+      "accepted_spellings": [
+        "fire"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 21,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "still",
+      "word_plain": "still",
+      "accepted_spellings": [
+        "still"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 22,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "hello",
+      "word_plain": "hello",
+      "accepted_spellings": [
+        "hello"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 23,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "bush",
+      "word_plain": "bush",
+      "accepted_spellings": [
+        "bush"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 24,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "late",
+      "word_plain": "late",
+      "accepted_spellings": [
+        "late"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 25,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "pump",
+      "word_plain": "pump",
+      "accepted_spellings": [
+        "pump"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 26,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "shell",
+      "word_plain": "shell",
+      "accepted_spellings": [
+        "shell"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 27,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "yarn",
+      "word_plain": "yarn",
+      "accepted_spellings": [
+        "yarn"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 28,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "wings",
+      "word_plain": "wings",
+      "accepted_spellings": [
+        "wings"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 29,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "sharp",
+      "word_plain": "sharp",
+      "accepted_spellings": [
+        "sharp"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 30,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "easy",
+      "word_plain": "easy",
+      "accepted_spellings": [
+        "easy"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 31,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "body",
+      "word_plain": "body",
+      "accepted_spellings": [
+        "body"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 32,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "house",
+      "word_plain": "house",
+      "accepted_spellings": [
+        "house"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 33,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "rich",
+      "word_plain": "rich",
+      "accepted_spellings": [
+        "rich"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 34,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "shift",
+      "word_plain": "shift",
+      "accepted_spellings": [
+        "shift"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 35,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "heart",
+      "word_plain": "heart",
+      "accepted_spellings": [
+        "heart"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 36,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "tusk",
+      "word_plain": "tusk",
+      "accepted_spellings": [
+        "tusk"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 37,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "shoot",
+      "word_plain": "shoot",
+      "accepted_spellings": [
+        "shoot"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 38,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "seal",
+      "word_plain": "seal",
+      "accepted_spellings": [
+        "seal"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 39,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "even",
+      "word_plain": "even",
+      "accepted_spellings": [
+        "even"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 40,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "dive",
+      "word_plain": "dive",
+      "accepted_spellings": [
+        "dive"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 41,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "claws",
+      "word_plain": "claws",
+      "accepted_spellings": [
+        "claws"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 42,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "crack",
+      "word_plain": "crack",
+      "accepted_spellings": [
+        "crack"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 43,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "come",
+      "word_plain": "come",
+      "accepted_spellings": [
+        "come"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 44,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "fine",
+      "word_plain": "fine",
+      "accepted_spellings": [
+        "fine"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 45,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "winter",
+      "word_plain": "winter",
+      "accepted_spellings": [
+        "winter"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 46,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "apple",
+      "word_plain": "apple",
+      "accepted_spellings": [
+        "apple"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 47,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "sound",
+      "word_plain": "sound",
+      "accepted_spellings": [
+        "sound"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 48,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "mossy",
+      "word_plain": "mossy",
+      "accepted_spellings": [
+        "mossy"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 49,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "yellow",
+      "word_plain": "yellow",
+      "accepted_spellings": [
+        "yellow"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 50,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "shine",
+      "word_plain": "shine",
+      "accepted_spellings": [
+        "shine"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 51,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "chips",
+      "word_plain": "chips",
+      "accepted_spellings": [
+        "chips"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 52,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "beans",
+      "word_plain": "beans",
+      "accepted_spellings": [
+        "beans"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 53,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "mouth",
+      "word_plain": "mouth",
+      "accepted_spellings": [
+        "mouth"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 54,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "spray",
+      "word_plain": "spray",
+      "accepted_spellings": [
+        "spray"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 55,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "year",
+      "word_plain": "year",
+      "accepted_spellings": [
+        "year"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 56,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "truth",
+      "word_plain": "truth",
+      "accepted_spellings": [
+        "truth"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 57,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "paper",
+      "word_plain": "paper",
+      "accepted_spellings": [
+        "paper"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 58,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "rabbit",
+      "word_plain": "rabbit",
+      "accepted_spellings": [
+        "rabbit"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 59,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "feed",
+      "word_plain": "feed",
+      "accepted_spellings": [
+        "feed"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 60,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "tallest",
+      "word_plain": "tallest",
+      "accepted_spellings": [
+        "tallest"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 61,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "inside",
+      "word_plain": "inside",
+      "accepted_spellings": [
+        "inside"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 62,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "frozen",
+      "word_plain": "frozen",
+      "accepted_spellings": [
+        "frozen"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 63,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "speak",
+      "word_plain": "speak",
+      "accepted_spellings": [
+        "speak"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 64,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "cliffs",
+      "word_plain": "cliffs",
+      "accepted_spellings": [
+        "cliffs"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 65,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "whale",
+      "word_plain": "whale",
+      "accepted_spellings": [
+        "whale"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 66,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "market",
+      "word_plain": "market",
+      "accepted_spellings": [
+        "market"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 67,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "flock",
+      "word_plain": "flock",
+      "accepted_spellings": [
+        "flock"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 68,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "crunch",
+      "word_plain": "crunch",
+      "accepted_spellings": [
+        "crunch"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 69,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "lizard",
+      "word_plain": "lizard",
+      "accepted_spellings": [
+        "lizard"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 70,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "beware",
+      "word_plain": "beware",
+      "accepted_spellings": [
+        "beware"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 71,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "sparkle",
+      "word_plain": "sparkle",
+      "accepted_spellings": [
+        "sparkle"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 72,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "sweater",
+      "word_plain": "sweater",
+      "accepted_spellings": [
+        "sweater"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 73,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "nurse",
+      "word_plain": "nurse",
+      "accepted_spellings": [
+        "nurse"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 74,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "wrong",
+      "word_plain": "wrong",
+      "accepted_spellings": [
+        "wrong"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 75,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "hopped",
+      "word_plain": "hopped",
+      "accepted_spellings": [
+        "hopped"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 76,
+      "level": "One Bee",
+      "source_page": 1,
+      "word": "money",
+      "word_plain": "money",
+      "accepted_spellings": [
+        "money"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 77,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "cabin",
+      "word_plain": "cabin",
+      "accepted_spellings": [
+        "cabin"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 78,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "darkness",
+      "word_plain": "darkness",
+      "accepted_spellings": [
+        "darkness"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 79,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "always",
+      "word_plain": "always",
+      "accepted_spellings": [
+        "always"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 80,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "sprout",
+      "word_plain": "sprout",
+      "accepted_spellings": [
+        "sprout"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 81,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "carve",
+      "word_plain": "carve",
+      "accepted_spellings": [
+        "carve"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 82,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "shadows",
+      "word_plain": "shadows",
+      "accepted_spellings": [
+        "shadows"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 83,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "morning",
+      "word_plain": "morning",
+      "accepted_spellings": [
+        "morning"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 84,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "alive",
+      "word_plain": "alive",
+      "accepted_spellings": [
+        "alive"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 85,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "earth",
+      "word_plain": "earth",
+      "accepted_spellings": [
+        "earth"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 86,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "friend",
+      "word_plain": "friend",
+      "accepted_spellings": [
+        "friend"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 87,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "lovely",
+      "word_plain": "lovely",
+      "accepted_spellings": [
+        "lovely"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 88,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "return",
+      "word_plain": "return",
+      "accepted_spellings": [
+        "return"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 89,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "half",
+      "word_plain": "half",
+      "accepted_spellings": [
+        "half"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 90,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "swift",
+      "word_plain": "swift",
+      "accepted_spellings": [
+        "swift"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 91,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "grandfather",
+      "word_plain": "grandfather",
+      "accepted_spellings": [
+        "grandfather"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 92,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "footprints",
+      "word_plain": "footprints",
+      "accepted_spellings": [
+        "footprints"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 93,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "fear",
+      "word_plain": "fear",
+      "accepted_spellings": [
+        "fear"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 94,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "thirsty",
+      "word_plain": "thirsty",
+      "accepted_spellings": [
+        "thirsty"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 95,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "peer",
+      "word_plain": "peer",
+      "accepted_spellings": [
+        "peer"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 96,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "gentle",
+      "word_plain": "gentle",
+      "accepted_spellings": [
+        "gentle"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 97,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "riddle",
+      "word_plain": "riddle",
+      "accepted_spellings": [
+        "riddle"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 98,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "voice",
+      "word_plain": "voice",
+      "accepted_spellings": [
+        "voice"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 99,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "peach",
+      "word_plain": "peach",
+      "accepted_spellings": [
+        "peach"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 100,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "pancakes",
+      "word_plain": "pancakes",
+      "accepted_spellings": [
+        "pancakes"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 101,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "illness",
+      "word_plain": "illness",
+      "accepted_spellings": [
+        "illness"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 102,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "lead",
+      "word_plain": "lead",
+      "accepted_spellings": [
+        "lead"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 103,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "groan",
+      "word_plain": "groan",
+      "accepted_spellings": [
+        "groan"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 104,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "sloth",
+      "word_plain": "sloth",
+      "accepted_spellings": [
+        "sloth"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 105,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "knit",
+      "word_plain": "knit",
+      "accepted_spellings": [
+        "knit"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 106,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "cloak",
+      "word_plain": "cloak",
+      "accepted_spellings": [
+        "cloak"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 107,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "parade",
+      "word_plain": "parade",
+      "accepted_spellings": [
+        "parade"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 108,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "whistle",
+      "word_plain": "whistle",
+      "accepted_spellings": [
+        "whistle"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 109,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "total",
+      "word_plain": "total",
+      "accepted_spellings": [
+        "total"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 110,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "indoors",
+      "word_plain": "indoors",
+      "accepted_spellings": [
+        "indoors"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 111,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "trouble",
+      "word_plain": "trouble",
+      "accepted_spellings": [
+        "trouble"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 112,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "relax",
+      "word_plain": "relax",
+      "accepted_spellings": [
+        "relax"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 113,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "finish",
+      "word_plain": "finish",
+      "accepted_spellings": [
+        "finish"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 114,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "holiday",
+      "word_plain": "holiday",
+      "accepted_spellings": [
+        "holiday"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 115,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "safety",
+      "word_plain": "safety",
+      "accepted_spellings": [
+        "safety"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 116,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "stout",
+      "word_plain": "stout",
+      "accepted_spellings": [
+        "stout"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 117,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "spiders",
+      "word_plain": "spiders",
+      "accepted_spellings": [
+        "spiders"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 118,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "entire",
+      "word_plain": "entire",
+      "accepted_spellings": [
+        "entire"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 119,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "library",
+      "word_plain": "library",
+      "accepted_spellings": [
+        "library"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 120,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "guide",
+      "word_plain": "guide",
+      "accepted_spellings": [
+        "guide"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 121,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "hospital",
+      "word_plain": "hospital",
+      "accepted_spellings": [
+        "hospital"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 122,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "mustard",
+      "word_plain": "mustard",
+      "accepted_spellings": [
+        "mustard"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 123,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "company",
+      "word_plain": "company",
+      "accepted_spellings": [
+        "company"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 124,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "ginger",
+      "word_plain": "ginger",
+      "accepted_spellings": [
+        "ginger"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 125,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "narrow",
+      "word_plain": "narrow",
+      "accepted_spellings": [
+        "narrow"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 126,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "medium",
+      "word_plain": "medium",
+      "accepted_spellings": [
+        "medium"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 127,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "pennies",
+      "word_plain": "pennies",
+      "accepted_spellings": [
+        "pennies"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 128,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "hiking",
+      "word_plain": "hiking",
+      "accepted_spellings": [
+        "hiking"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 129,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "foolish",
+      "word_plain": "foolish",
+      "accepted_spellings": [
+        "foolish"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 130,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "afraid",
+      "word_plain": "afraid",
+      "accepted_spellings": [
+        "afraid"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 131,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "remember",
+      "word_plain": "remember",
+      "accepted_spellings": [
+        "remember"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 132,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "result",
+      "word_plain": "result",
+      "accepted_spellings": [
+        "result"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 133,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "charming",
+      "word_plain": "charming",
+      "accepted_spellings": [
+        "charming"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 134,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "source",
+      "word_plain": "source",
+      "accepted_spellings": [
+        "source"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 135,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "pearls",
+      "word_plain": "pearls",
+      "accepted_spellings": [
+        "pearls"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 136,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "tangy",
+      "word_plain": "tangy",
+      "accepted_spellings": [
+        "tangy"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 137,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "beasts",
+      "word_plain": "beasts",
+      "accepted_spellings": [
+        "beasts"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 138,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "shivering",
+      "word_plain": "shivering",
+      "accepted_spellings": [
+        "shivering"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 139,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "barge",
+      "word_plain": "barge",
+      "accepted_spellings": [
+        "barge"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 140,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "grumpily",
+      "word_plain": "grumpily",
+      "accepted_spellings": [
+        "grumpily"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 141,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "smoothly",
+      "word_plain": "smoothly",
+      "accepted_spellings": [
+        "smoothly"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 142,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "cottage",
+      "word_plain": "cottage",
+      "accepted_spellings": [
+        "cottage"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 143,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "humble",
+      "word_plain": "humble",
+      "accepted_spellings": [
+        "humble"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 144,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "seventy",
+      "word_plain": "seventy",
+      "accepted_spellings": [
+        "seventy"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 145,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "dangle",
+      "word_plain": "dangle",
+      "accepted_spellings": [
+        "dangle"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 146,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "distance",
+      "word_plain": "distance",
+      "accepted_spellings": [
+        "distance"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 147,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "breeze",
+      "word_plain": "breeze",
+      "accepted_spellings": [
+        "breeze"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 148,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "soared",
+      "word_plain": "soared",
+      "accepted_spellings": [
+        "soared"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 149,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "frazzled",
+      "word_plain": "frazzled",
+      "accepted_spellings": [
+        "frazzled"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 150,
+      "level": "One Bee",
+      "source_page": 2,
+      "word": "bamboo",
+      "word_plain": "bamboo",
+      "accepted_spellings": [
+        "bamboo"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 151,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "buttons",
+      "word_plain": "buttons",
+      "accepted_spellings": [
+        "buttons"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 152,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "cuddle",
+      "word_plain": "cuddle",
+      "accepted_spellings": [
+        "cuddle"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 153,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "puffy",
+      "word_plain": "puffy",
+      "accepted_spellings": [
+        "puffy"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 154,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "tiptoed",
+      "word_plain": "tiptoed",
+      "accepted_spellings": [
+        "tiptoed"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 155,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "clever",
+      "word_plain": "clever",
+      "accepted_spellings": [
+        "clever"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 156,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "basement",
+      "word_plain": "basement",
+      "accepted_spellings": [
+        "basement"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 157,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "burlap",
+      "word_plain": "burlap",
+      "accepted_spellings": [
+        "burlap"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 158,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "wetlands",
+      "word_plain": "wetlands",
+      "accepted_spellings": [
+        "wetlands"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 159,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "invite",
+      "word_plain": "invite",
+      "accepted_spellings": [
+        "invite"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 160,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "butterflies",
+      "word_plain": "butterflies",
+      "accepted_spellings": [
+        "butterflies"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 161,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "kelp",
+      "word_plain": "kelp",
+      "accepted_spellings": [
+        "kelp"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 162,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "property",
+      "word_plain": "property",
+      "accepted_spellings": [
+        "property"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 163,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "carefully",
+      "word_plain": "carefully",
+      "accepted_spellings": [
+        "carefully"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 164,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "sniffling",
+      "word_plain": "sniffling",
+      "accepted_spellings": [
+        "sniffling"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 165,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "beneath",
+      "word_plain": "beneath",
+      "accepted_spellings": [
+        "beneath"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 166,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "tractor",
+      "word_plain": "tractor",
+      "accepted_spellings": [
+        "tractor"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 167,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "permit",
+      "word_plain": "permit",
+      "accepted_spellings": [
+        "permit"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 168,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "awning",
+      "word_plain": "awning",
+      "accepted_spellings": [
+        "awning"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 169,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "fickle",
+      "word_plain": "fickle",
+      "accepted_spellings": [
+        "fickle"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 170,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "relief",
+      "word_plain": "relief",
+      "accepted_spellings": [
+        "relief"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 171,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "lunar",
+      "word_plain": "lunar",
+      "accepted_spellings": [
+        "lunar"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 172,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "boycotting",
+      "word_plain": "boycotting",
+      "accepted_spellings": [
+        "boycotting"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 173,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "molten",
+      "word_plain": "molten",
+      "accepted_spellings": [
+        "molten"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 174,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "elite",
+      "word_plain": "elite",
+      "accepted_spellings": [
+        "elite"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 175,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "woven",
+      "word_plain": "woven",
+      "accepted_spellings": [
+        "woven"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 176,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "proclaim",
+      "word_plain": "proclaim",
+      "accepted_spellings": [
+        "proclaim"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 177,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "thimble",
+      "word_plain": "thimble",
+      "accepted_spellings": [
+        "thimble"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 178,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "custody",
+      "word_plain": "custody",
+      "accepted_spellings": [
+        "custody"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 179,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "granola",
+      "word_plain": "granola",
+      "accepted_spellings": [
+        "granola"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 180,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "warrior",
+      "word_plain": "warrior",
+      "accepted_spellings": [
+        "warrior"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 181,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "rigid",
+      "word_plain": "rigid",
+      "accepted_spellings": [
+        "rigid"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 182,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "fierce",
+      "word_plain": "fierce",
+      "accepted_spellings": [
+        "fierce"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 183,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "laughter",
+      "word_plain": "laughter",
+      "accepted_spellings": [
+        "laughter"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 184,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "salary",
+      "word_plain": "salary",
+      "accepted_spellings": [
+        "salary"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 185,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "disappear",
+      "word_plain": "disappear",
+      "accepted_spellings": [
+        "disappear"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 186,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "hurdler",
+      "word_plain": "hurdler",
+      "accepted_spellings": [
+        "hurdler"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 187,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "lounge",
+      "word_plain": "lounge",
+      "accepted_spellings": [
+        "lounge"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 188,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "jovial",
+      "word_plain": "jovial",
+      "accepted_spellings": [
+        "jovial"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 189,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "inferior",
+      "word_plain": "inferior",
+      "accepted_spellings": [
+        "inferior"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 190,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "December",
+      "word_plain": "December",
+      "accepted_spellings": [
+        "December"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 191,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "duration",
+      "word_plain": "duration",
+      "accepted_spellings": [
+        "duration"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 192,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "dictionary",
+      "word_plain": "dictionary",
+      "accepted_spellings": [
+        "dictionary"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 193,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "business",
+      "word_plain": "business",
+      "accepted_spellings": [
+        "business"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 194,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "reinstate",
+      "word_plain": "reinstate",
+      "accepted_spellings": [
+        "reinstate"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 195,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "examine",
+      "word_plain": "examine",
+      "accepted_spellings": [
+        "examine"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 196,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "versus",
+      "word_plain": "versus",
+      "accepted_spellings": [
+        "versus"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 197,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "lullaby",
+      "word_plain": "lullaby",
+      "accepted_spellings": [
+        "lullaby"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 198,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "opposite",
+      "word_plain": "opposite",
+      "accepted_spellings": [
+        "opposite"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 199,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "tissues",
+      "word_plain": "tissues",
+      "accepted_spellings": [
+        "tissues"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 200,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "marlin",
+      "word_plain": "marlin",
+      "accepted_spellings": [
+        "marlin"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 201,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "Halloween",
+      "word_plain": "Halloween",
+      "accepted_spellings": [
+        "Halloween"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 202,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "compliment",
+      "word_plain": "compliment",
+      "accepted_spellings": [
+        "compliment"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 203,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "compromise",
+      "word_plain": "compromise",
+      "accepted_spellings": [
+        "compromise"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 204,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "incident",
+      "word_plain": "incident",
+      "accepted_spellings": [
+        "incident"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 205,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "Japanese",
+      "word_plain": "Japanese",
+      "accepted_spellings": [
+        "Japanese"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 206,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "investment",
+      "word_plain": "investment",
+      "accepted_spellings": [
+        "investment"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 207,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "bifocals",
+      "word_plain": "bifocals",
+      "accepted_spellings": [
+        "bifocals"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 208,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "cutlery",
+      "word_plain": "cutlery",
+      "accepted_spellings": [
+        "cutlery"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 209,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "chisel",
+      "word_plain": "chisel",
+      "accepted_spellings": [
+        "chisel"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 210,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "fundraiser",
+      "word_plain": "fundraiser",
+      "accepted_spellings": [
+        "fundraiser"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 211,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "geologist",
+      "word_plain": "geologist",
+      "accepted_spellings": [
+        "geologist"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 212,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "bellowed",
+      "word_plain": "bellowed",
+      "accepted_spellings": [
+        "bellowed"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 213,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "organism",
+      "word_plain": "organism",
+      "accepted_spellings": [
+        "organism"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 214,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "quail",
+      "word_plain": "quail",
+      "accepted_spellings": [
+        "quail"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 215,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "atmosphere",
+      "word_plain": "atmosphere",
+      "accepted_spellings": [
+        "atmosphere"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 216,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "disappointment",
+      "word_plain": "disappointment",
+      "accepted_spellings": [
+        "disappointment"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 217,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "truant",
+      "word_plain": "truant",
+      "accepted_spellings": [
+        "truant"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 218,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "pamphlet",
+      "word_plain": "pamphlet",
+      "accepted_spellings": [
+        "pamphlet"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 219,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "helium",
+      "word_plain": "helium",
+      "accepted_spellings": [
+        "helium"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 220,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "suggested",
+      "word_plain": "suggested",
+      "accepted_spellings": [
+        "suggested"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 221,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "chimpanzees",
+      "word_plain": "chimpanzees",
+      "accepted_spellings": [
+        "chimpanzees"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 222,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "desperate",
+      "word_plain": "desperate",
+      "accepted_spellings": [
+        "desperate"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 223,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "annoyance",
+      "word_plain": "annoyance",
+      "accepted_spellings": [
+        "annoyance"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 224,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "interruption",
+      "word_plain": "interruption",
+      "accepted_spellings": [
+        "interruption"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 225,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "concentrate",
+      "word_plain": "concentrate",
+      "accepted_spellings": [
+        "concentrate"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 226,
+      "level": "Two Bee",
+      "source_page": 3,
+      "word": "piñata",
+      "word_plain": "pinata",
+      "accepted_spellings": [
+        "piñata"
+      ],
+      "alternates": [],
+      "tags": [
+        "diacritic"
+      ],
+      "note": ""
+    },
+    {
+      "id": 227,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "territory",
+      "word_plain": "territory",
+      "accepted_spellings": [
+        "territory"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 228,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "stragglers",
+      "word_plain": "stragglers",
+      "accepted_spellings": [
+        "stragglers"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 229,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "albino",
+      "word_plain": "albino",
+      "accepted_spellings": [
+        "albino"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 230,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "ridiculous",
+      "word_plain": "ridiculous",
+      "accepted_spellings": [
+        "ridiculous"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 231,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "monorail",
+      "word_plain": "monorail",
+      "accepted_spellings": [
+        "monorail"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 232,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "exploratory",
+      "word_plain": "exploratory",
+      "accepted_spellings": [
+        "exploratory"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 233,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "indigo",
+      "word_plain": "indigo",
+      "accepted_spellings": [
+        "indigo"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 234,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "bratwurst",
+      "word_plain": "bratwurst",
+      "accepted_spellings": [
+        "bratwurst"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 235,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "alphabetical",
+      "word_plain": "alphabetical",
+      "accepted_spellings": [
+        "alphabetical"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 236,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "integrity",
+      "word_plain": "integrity",
+      "accepted_spellings": [
+        "integrity"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 237,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "Oregon",
+      "word_plain": "Oregon",
+      "accepted_spellings": [
+        "Oregon"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 238,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "rebuttal",
+      "word_plain": "rebuttal",
+      "accepted_spellings": [
+        "rebuttal"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 239,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "prejudice",
+      "word_plain": "prejudice",
+      "accepted_spellings": [
+        "prejudice"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 240,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "solidarity",
+      "word_plain": "solidarity",
+      "accepted_spellings": [
+        "solidarity"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 241,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "calico",
+      "word_plain": "calico",
+      "accepted_spellings": [
+        "calico"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 242,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "sputnik",
+      "word_plain": "sputnik",
+      "accepted_spellings": [
+        "sputnik"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 243,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "cartridge",
+      "word_plain": "cartridge",
+      "accepted_spellings": [
+        "cartridge"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 244,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "segregation",
+      "word_plain": "segregation",
+      "accepted_spellings": [
+        "segregation"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 245,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "tortillas",
+      "word_plain": "tortillas",
+      "accepted_spellings": [
+        "tortillas"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 246,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "civilian",
+      "word_plain": "civilian",
+      "accepted_spellings": [
+        "civilian"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 247,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "fertilizer",
+      "word_plain": "fertilizer",
+      "accepted_spellings": [
+        "fertilizer",
+        "fertiliser"
+      ],
+      "alternates": [
+        {
+          "spelling": "fertiliser",
+          "type": "British spelling"
+        }
+      ],
+      "tags": [
+        "has_alternate_spelling"
+      ],
+      "note": "American spelling listed first; alternate is British (*)"
+    },
+    {
+      "id": 248,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "apprentice",
+      "word_plain": "apprentice",
+      "accepted_spellings": [
+        "apprentice"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 249,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "synthetic",
+      "word_plain": "synthetic",
+      "accepted_spellings": [
+        "synthetic"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 250,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "Caesar",
+      "word_plain": "Caesar",
+      "accepted_spellings": [
+        "Caesar"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 251,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "glamorous",
+      "word_plain": "glamorous",
+      "accepted_spellings": [
+        "glamorous"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 252,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "salamanders",
+      "word_plain": "salamanders",
+      "accepted_spellings": [
+        "salamanders"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 253,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "suspension",
+      "word_plain": "suspension",
+      "accepted_spellings": [
+        "suspension"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 254,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "sorceress",
+      "word_plain": "sorceress",
+      "accepted_spellings": [
+        "sorceress"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 255,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "fictitious",
+      "word_plain": "fictitious",
+      "accepted_spellings": [
+        "fictitious"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 256,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "convertible",
+      "word_plain": "convertible",
+      "accepted_spellings": [
+        "convertible"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 257,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "snarkiness",
+      "word_plain": "snarkiness",
+      "accepted_spellings": [
+        "snarkiness"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 258,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "singularity",
+      "word_plain": "singularity",
+      "accepted_spellings": [
+        "singularity"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 259,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "collateral",
+      "word_plain": "collateral",
+      "accepted_spellings": [
+        "collateral"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 260,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "initiation",
+      "word_plain": "initiation",
+      "accepted_spellings": [
+        "initiation"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 261,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "mascara",
+      "word_plain": "mascara",
+      "accepted_spellings": [
+        "mascara"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 262,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "battalion",
+      "word_plain": "battalion",
+      "accepted_spellings": [
+        "battalion"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 263,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "precedent",
+      "word_plain": "precedent",
+      "accepted_spellings": [
+        "precedent"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 264,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "materialize",
+      "word_plain": "materialize",
+      "accepted_spellings": [
+        "materialize",
+        "materialise"
+      ],
+      "alternates": [
+        {
+          "spelling": "materialise",
+          "type": "British spelling"
+        }
+      ],
+      "tags": [
+        "has_alternate_spelling"
+      ],
+      "note": "American spelling listed first; alternate is British (*)"
+    },
+    {
+      "id": 265,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "magnesium",
+      "word_plain": "magnesium",
+      "accepted_spellings": [
+        "magnesium"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 266,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "perimeter",
+      "word_plain": "perimeter",
+      "accepted_spellings": [
+        "perimeter"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 267,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "haddock",
+      "word_plain": "haddock",
+      "accepted_spellings": [
+        "haddock"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 268,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "optometrist",
+      "word_plain": "optometrist",
+      "accepted_spellings": [
+        "optometrist"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 269,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "meticulous",
+      "word_plain": "meticulous",
+      "accepted_spellings": [
+        "meticulous"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 270,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "cosmodrome",
+      "word_plain": "cosmodrome",
+      "accepted_spellings": [
+        "cosmodrome"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 271,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "hypothermia",
+      "word_plain": "hypothermia",
+      "accepted_spellings": [
+        "hypothermia"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 272,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "schnauzer",
+      "word_plain": "schnauzer",
+      "accepted_spellings": [
+        "schnauzer"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 273,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "megahertz",
+      "word_plain": "megahertz",
+      "accepted_spellings": [
+        "megahertz"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 274,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "regolith",
+      "word_plain": "regolith",
+      "accepted_spellings": [
+        "regolith"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 275,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "arthritis",
+      "word_plain": "arthritis",
+      "accepted_spellings": [
+        "arthritis"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 276,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "persnickety",
+      "word_plain": "persnickety",
+      "accepted_spellings": [
+        "persnickety"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 277,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "insurrection",
+      "word_plain": "insurrection",
+      "accepted_spellings": [
+        "insurrection"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 278,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "pheasants",
+      "word_plain": "pheasants",
+      "accepted_spellings": [
+        "pheasants"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 279,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "pentathletes",
+      "word_plain": "pentathletes",
+      "accepted_spellings": [
+        "pentathletes"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 280,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "Senegal",
+      "word_plain": "Senegal",
+      "accepted_spellings": [
+        "Senegal"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 281,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "fascism",
+      "word_plain": "fascism",
+      "accepted_spellings": [
+        "fascism"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 282,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "duende",
+      "word_plain": "duende",
+      "accepted_spellings": [
+        "duende"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 283,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "predecessor",
+      "word_plain": "predecessor",
+      "accepted_spellings": [
+        "predecessor"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 284,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "Polaroid",
+      "word_plain": "Polaroid",
+      "accepted_spellings": [
+        "Polaroid"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 285,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "reservoir",
+      "word_plain": "reservoir",
+      "accepted_spellings": [
+        "reservoir"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 286,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "matrilineal",
+      "word_plain": "matrilineal",
+      "accepted_spellings": [
+        "matrilineal"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 287,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "conscious",
+      "word_plain": "conscious",
+      "accepted_spellings": [
+        "conscious"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 288,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "arnica",
+      "word_plain": "arnica",
+      "accepted_spellings": [
+        "arnica"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 289,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "carrion",
+      "word_plain": "carrion",
+      "accepted_spellings": [
+        "carrion"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 290,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "glaucoma",
+      "word_plain": "glaucoma",
+      "accepted_spellings": [
+        "glaucoma"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 291,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "piteously",
+      "word_plain": "piteously",
+      "accepted_spellings": [
+        "piteously"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 292,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "adrenaline",
+      "word_plain": "adrenaline",
+      "accepted_spellings": [
+        "adrenaline"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 293,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "elliptical",
+      "word_plain": "elliptical",
+      "accepted_spellings": [
+        "elliptical"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 294,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "staccato",
+      "word_plain": "staccato",
+      "accepted_spellings": [
+        "staccato"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 295,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "iridium",
+      "word_plain": "iridium",
+      "accepted_spellings": [
+        "iridium"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 296,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "romerillo",
+      "word_plain": "romerillo",
+      "accepted_spellings": [
+        "romerillo"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 297,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "cemetery",
+      "word_plain": "cemetery",
+      "accepted_spellings": [
+        "cemetery"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 298,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "dachshund",
+      "word_plain": "dachshund",
+      "accepted_spellings": [
+        "dachshund"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 299,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "rendezvous",
+      "word_plain": "rendezvous",
+      "accepted_spellings": [
+        "rendezvous"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 300,
+      "level": "Two Bee",
+      "source_page": 4,
+      "word": "Aeolus",
+      "word_plain": "Aeolus",
+      "accepted_spellings": [
+        "Aeolus"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 301,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "newt",
+      "word_plain": "newt",
+      "accepted_spellings": [
+        "newt"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 302,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "thrummed",
+      "word_plain": "thrummed",
+      "accepted_spellings": [
+        "thrummed"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 303,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "censers",
+      "word_plain": "censers",
+      "accepted_spellings": [
+        "censers"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 304,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "lapels",
+      "word_plain": "lapels",
+      "accepted_spellings": [
+        "lapels"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 305,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "generosity",
+      "word_plain": "generosity",
+      "accepted_spellings": [
+        "generosity"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 306,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "burnished",
+      "word_plain": "burnished",
+      "accepted_spellings": [
+        "burnished"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 307,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "embankment",
+      "word_plain": "embankment",
+      "accepted_spellings": [
+        "embankment"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 308,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "unrelenting",
+      "word_plain": "unrelenting",
+      "accepted_spellings": [
+        "unrelenting"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 309,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "wallowing",
+      "word_plain": "wallowing",
+      "accepted_spellings": [
+        "wallowing"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 310,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "imperial",
+      "word_plain": "imperial",
+      "accepted_spellings": [
+        "imperial"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 311,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "mortar",
+      "word_plain": "mortar",
+      "accepted_spellings": [
+        "mortar"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 312,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "arsonists",
+      "word_plain": "arsonists",
+      "accepted_spellings": [
+        "arsonists"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 313,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "mewling",
+      "word_plain": "mewling",
+      "accepted_spellings": [
+        "mewling"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 314,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "generator",
+      "word_plain": "generator",
+      "accepted_spellings": [
+        "generator"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 315,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "persistent",
+      "word_plain": "persistent",
+      "accepted_spellings": [
+        "persistent"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 316,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "authority",
+      "word_plain": "authority",
+      "accepted_spellings": [
+        "authority"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 317,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "panoramic",
+      "word_plain": "panoramic",
+      "accepted_spellings": [
+        "panoramic"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 318,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "Doberman",
+      "word_plain": "Doberman",
+      "accepted_spellings": [
+        "Doberman"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 319,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "dominion",
+      "word_plain": "dominion",
+      "accepted_spellings": [
+        "dominion"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 320,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "decisively",
+      "word_plain": "decisively",
+      "accepted_spellings": [
+        "decisively"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 321,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "gauntlets",
+      "word_plain": "gauntlets",
+      "accepted_spellings": [
+        "gauntlets"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 322,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "inanimate",
+      "word_plain": "inanimate",
+      "accepted_spellings": [
+        "inanimate"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 323,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "lemmings",
+      "word_plain": "lemmings",
+      "accepted_spellings": [
+        "lemmings"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 324,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "auditory",
+      "word_plain": "auditory",
+      "accepted_spellings": [
+        "auditory"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 325,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "appetizing",
+      "word_plain": "appetizing",
+      "accepted_spellings": [
+        "appetizing"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 326,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "sentinels",
+      "word_plain": "sentinels",
+      "accepted_spellings": [
+        "sentinels"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 327,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "frequency",
+      "word_plain": "frequency",
+      "accepted_spellings": [
+        "frequency"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 328,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "self-sufficient",
+      "word_plain": "self-sufficient",
+      "accepted_spellings": [
+        "self-sufficient"
+      ],
+      "alternates": [],
+      "tags": [
+        "hyphenated"
+      ],
+      "note": ""
+    },
+    {
+      "id": 329,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "prospective",
+      "word_plain": "prospective",
+      "accepted_spellings": [
+        "prospective"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 330,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "subscription",
+      "word_plain": "subscription",
+      "accepted_spellings": [
+        "subscription"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 331,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "blithely",
+      "word_plain": "blithely",
+      "accepted_spellings": [
+        "blithely"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 332,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "conspicuous",
+      "word_plain": "conspicuous",
+      "accepted_spellings": [
+        "conspicuous"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 333,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "preconception",
+      "word_plain": "preconception",
+      "accepted_spellings": [
+        "preconception"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 334,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "procession",
+      "word_plain": "procession",
+      "accepted_spellings": [
+        "procession"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 335,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "tenuous",
+      "word_plain": "tenuous",
+      "accepted_spellings": [
+        "tenuous"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 336,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "perpendicular",
+      "word_plain": "perpendicular",
+      "accepted_spellings": [
+        "perpendicular"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 337,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "hemisphere",
+      "word_plain": "hemisphere",
+      "accepted_spellings": [
+        "hemisphere"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 338,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "seminal",
+      "word_plain": "seminal",
+      "accepted_spellings": [
+        "seminal"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 339,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "saxophone",
+      "word_plain": "saxophone",
+      "accepted_spellings": [
+        "saxophone"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 340,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "torrential",
+      "word_plain": "torrential",
+      "accepted_spellings": [
+        "torrential"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 341,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "reluctance",
+      "word_plain": "reluctance",
+      "accepted_spellings": [
+        "reluctance"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 342,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "consulate",
+      "word_plain": "consulate",
+      "accepted_spellings": [
+        "consulate"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 343,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "canter",
+      "word_plain": "canter",
+      "accepted_spellings": [
+        "canter"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 344,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "sauntered",
+      "word_plain": "sauntered",
+      "accepted_spellings": [
+        "sauntered"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 345,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "propeller",
+      "word_plain": "propeller",
+      "accepted_spellings": [
+        "propeller"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 346,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "modish",
+      "word_plain": "modish",
+      "accepted_spellings": [
+        "modish"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 347,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "cuisine",
+      "word_plain": "cuisine",
+      "accepted_spellings": [
+        "cuisine"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 348,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "juniper",
+      "word_plain": "juniper",
+      "accepted_spellings": [
+        "juniper"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 349,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "settee",
+      "word_plain": "settee",
+      "accepted_spellings": [
+        "settee"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 350,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "unconscious",
+      "word_plain": "unconscious",
+      "accepted_spellings": [
+        "unconscious"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 351,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "influenza",
+      "word_plain": "influenza",
+      "accepted_spellings": [
+        "influenza"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 352,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "palazzo",
+      "word_plain": "palazzo",
+      "accepted_spellings": [
+        "palazzo"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 353,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "finesse",
+      "word_plain": "finesse",
+      "accepted_spellings": [
+        "finesse"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 354,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "foliage",
+      "word_plain": "foliage",
+      "accepted_spellings": [
+        "foliage"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 355,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "odorant",
+      "word_plain": "odorant",
+      "accepted_spellings": [
+        "odorant",
+        "odourant"
+      ],
+      "alternates": [
+        {
+          "spelling": "odourant",
+          "type": "British spelling"
+        }
+      ],
+      "tags": [
+        "has_alternate_spelling"
+      ],
+      "note": "American spelling listed first; alternate is British (*)"
+    },
+    {
+      "id": 356,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "irrelevant",
+      "word_plain": "irrelevant",
+      "accepted_spellings": [
+        "irrelevant"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 357,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "curriculum",
+      "word_plain": "curriculum",
+      "accepted_spellings": [
+        "curriculum"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 358,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "quizzically",
+      "word_plain": "quizzically",
+      "accepted_spellings": [
+        "quizzically"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 359,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "diplomatically",
+      "word_plain": "diplomatically",
+      "accepted_spellings": [
+        "diplomatically"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 360,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "enigmatic",
+      "word_plain": "enigmatic",
+      "accepted_spellings": [
+        "enigmatic"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 361,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "increments",
+      "word_plain": "increments",
+      "accepted_spellings": [
+        "increments"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 362,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "crocheted",
+      "word_plain": "crocheted",
+      "accepted_spellings": [
+        "crocheted"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 363,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "calibrate",
+      "word_plain": "calibrate",
+      "accepted_spellings": [
+        "calibrate"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 364,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "hypothesis",
+      "word_plain": "hypothesis",
+      "accepted_spellings": [
+        "hypothesis"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 365,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "reassurance",
+      "word_plain": "reassurance",
+      "accepted_spellings": [
+        "reassurance"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 366,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "apologetic",
+      "word_plain": "apologetic",
+      "accepted_spellings": [
+        "apologetic"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 367,
+      "level": "Three Bee",
+      "source_page": 5,
+      "word": "credenza",
+      "word_plain": "credenza",
+      "accepted_spellings": [
+        "credenza"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 368,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "comprehensible",
+      "word_plain": "comprehensible",
+      "accepted_spellings": [
+        "comprehensible"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 369,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "protectorate",
+      "word_plain": "protectorate",
+      "accepted_spellings": [
+        "protectorate"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 370,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Delaware",
+      "word_plain": "Delaware",
+      "accepted_spellings": [
+        "Delaware"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 371,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "phenomenon",
+      "word_plain": "phenomenon",
+      "accepted_spellings": [
+        "phenomenon"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 372,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "trenchant",
+      "word_plain": "trenchant",
+      "accepted_spellings": [
+        "trenchant"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 373,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "pulmonary",
+      "word_plain": "pulmonary",
+      "accepted_spellings": [
+        "pulmonary"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 374,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "undulating",
+      "word_plain": "undulating",
+      "accepted_spellings": [
+        "undulating"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 375,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "alleviate",
+      "word_plain": "alleviate",
+      "accepted_spellings": [
+        "alleviate"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 376,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "despondent",
+      "word_plain": "despondent",
+      "accepted_spellings": [
+        "despondent"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 377,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "approximation",
+      "word_plain": "approximation",
+      "accepted_spellings": [
+        "approximation"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 378,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "phantasmal",
+      "word_plain": "phantasmal",
+      "accepted_spellings": [
+        "phantasmal"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 379,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "legation",
+      "word_plain": "legation",
+      "accepted_spellings": [
+        "legation"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 380,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "echolocation",
+      "word_plain": "echolocation",
+      "accepted_spellings": [
+        "echolocation"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 381,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "glycerin",
+      "word_plain": "glycerin",
+      "accepted_spellings": [
+        "glycerin",
+        "glycerine"
+      ],
+      "alternates": [
+        {
+          "spelling": "glycerine",
+          "type": "alternate spelling"
+        }
+      ],
+      "tags": [
+        "has_alternate_spelling"
+      ],
+      "note": "preferred spelling (**) listed first"
+    },
+    {
+      "id": 382,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "brazier",
+      "word_plain": "brazier",
+      "accepted_spellings": [
+        "brazier",
+        "brasier"
+      ],
+      "alternates": [
+        {
+          "spelling": "brasier",
+          "type": "alternate spelling"
+        }
+      ],
+      "tags": [
+        "has_alternate_spelling"
+      ],
+      "note": "preferred spelling (**) listed first"
+    },
+    {
+      "id": 383,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "diffidence",
+      "word_plain": "diffidence",
+      "accepted_spellings": [
+        "diffidence"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 384,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "conflagration",
+      "word_plain": "conflagration",
+      "accepted_spellings": [
+        "conflagration"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 385,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "alabaster",
+      "word_plain": "alabaster",
+      "accepted_spellings": [
+        "alabaster"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 386,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "arachnid",
+      "word_plain": "arachnid",
+      "accepted_spellings": [
+        "arachnid"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 387,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "butane",
+      "word_plain": "butane",
+      "accepted_spellings": [
+        "butane"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 388,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "thermotaxis",
+      "word_plain": "thermotaxis",
+      "accepted_spellings": [
+        "thermotaxis"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 389,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "arugula",
+      "word_plain": "arugula",
+      "accepted_spellings": [
+        "arugula"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 390,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "pathologically",
+      "word_plain": "pathologically",
+      "accepted_spellings": [
+        "pathologically"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 391,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "cataract",
+      "word_plain": "cataract",
+      "accepted_spellings": [
+        "cataract"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 392,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "inaugurate",
+      "word_plain": "inaugurate",
+      "accepted_spellings": [
+        "inaugurate"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 393,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "vibrometer",
+      "word_plain": "vibrometer",
+      "accepted_spellings": [
+        "vibrometer"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 394,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "affinities",
+      "word_plain": "affinities",
+      "accepted_spellings": [
+        "affinities"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 395,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "quiche",
+      "word_plain": "quiche",
+      "accepted_spellings": [
+        "quiche"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 396,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "bioluminescence",
+      "word_plain": "bioluminescence",
+      "accepted_spellings": [
+        "bioluminescence"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 397,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "mayonnaise",
+      "word_plain": "mayonnaise",
+      "accepted_spellings": [
+        "mayonnaise"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 398,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "embodiment",
+      "word_plain": "embodiment",
+      "accepted_spellings": [
+        "embodiment"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 399,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "euphemism",
+      "word_plain": "euphemism",
+      "accepted_spellings": [
+        "euphemism"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 400,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "chickadee",
+      "word_plain": "chickadee",
+      "accepted_spellings": [
+        "chickadee"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 401,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "sputum",
+      "word_plain": "sputum",
+      "accepted_spellings": [
+        "sputum"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 402,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "porpoises",
+      "word_plain": "porpoises",
+      "accepted_spellings": [
+        "porpoises"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 403,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "acolyte",
+      "word_plain": "acolyte",
+      "accepted_spellings": [
+        "acolyte"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 404,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "asymmetric",
+      "word_plain": "asymmetric",
+      "accepted_spellings": [
+        "asymmetric"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 405,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "cerulean",
+      "word_plain": "cerulean",
+      "accepted_spellings": [
+        "cerulean"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 406,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "psychological",
+      "word_plain": "psychological",
+      "accepted_spellings": [
+        "psychological"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 407,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "innocuous",
+      "word_plain": "innocuous",
+      "accepted_spellings": [
+        "innocuous"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 408,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "sharpei",
+      "word_plain": "sharpei",
+      "accepted_spellings": [
+        "sharpei"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 409,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "cul-de-sac",
+      "word_plain": "cul-de-sac",
+      "accepted_spellings": [
+        "cul-de-sac"
+      ],
+      "alternates": [],
+      "tags": [
+        "hyphenated"
+      ],
+      "note": ""
+    },
+    {
+      "id": 410,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "assemblage",
+      "word_plain": "assemblage",
+      "accepted_spellings": [
+        "assemblage"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 411,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Tripoli",
+      "word_plain": "Tripoli",
+      "accepted_spellings": [
+        "Tripoli"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 412,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "endothermy",
+      "word_plain": "endothermy",
+      "accepted_spellings": [
+        "endothermy"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 413,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "electrolytes",
+      "word_plain": "electrolytes",
+      "accepted_spellings": [
+        "electrolytes"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 414,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "leprosy",
+      "word_plain": "leprosy",
+      "accepted_spellings": [
+        "leprosy"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 415,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "neurological",
+      "word_plain": "neurological",
+      "accepted_spellings": [
+        "neurological"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 416,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "éclair",
+      "word_plain": "eclair",
+      "accepted_spellings": [
+        "éclair"
+      ],
+      "alternates": [],
+      "tags": [
+        "diacritic"
+      ],
+      "note": ""
+    },
+    {
+      "id": 417,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "ototoxic",
+      "word_plain": "ototoxic",
+      "accepted_spellings": [
+        "ototoxic"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 418,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "eureka",
+      "word_plain": "eureka",
+      "accepted_spellings": [
+        "eureka"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 419,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "mysticetes",
+      "word_plain": "mysticetes",
+      "accepted_spellings": [
+        "mysticetes"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 420,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "irascibility",
+      "word_plain": "irascibility",
+      "accepted_spellings": [
+        "irascibility"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 421,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Aphrodite",
+      "word_plain": "Aphrodite",
+      "accepted_spellings": [
+        "Aphrodite"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 422,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "annelids",
+      "word_plain": "annelids",
+      "accepted_spellings": [
+        "annelids"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 423,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Eritrea",
+      "word_plain": "Eritrea",
+      "accepted_spellings": [
+        "Eritrea"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 424,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "a cappella",
+      "word_plain": "a cappella",
+      "accepted_spellings": [
+        "a cappella"
+      ],
+      "alternates": [],
+      "tags": [
+        "multi_word"
+      ],
+      "note": ""
+    },
+    {
+      "id": 425,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "bogong moth",
+      "word_plain": "bogong moth",
+      "accepted_spellings": [
+        "bogong moth"
+      ],
+      "alternates": [],
+      "tags": [
+        "multi_word"
+      ],
+      "note": ""
+    },
+    {
+      "id": 426,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "kerosene",
+      "word_plain": "kerosene",
+      "accepted_spellings": [
+        "kerosene",
+        "kerosine"
+      ],
+      "alternates": [
+        {
+          "spelling": "kerosine",
+          "type": "alternate spelling"
+        }
+      ],
+      "tags": [
+        "has_alternate_spelling"
+      ],
+      "note": "preferred spelling (**) listed first"
+    },
+    {
+      "id": 427,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "forsythia",
+      "word_plain": "forsythia",
+      "accepted_spellings": [
+        "forsythia"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 428,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Amharic",
+      "word_plain": "Amharic",
+      "accepted_spellings": [
+        "Amharic"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 429,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "yakuza",
+      "word_plain": "yakuza",
+      "accepted_spellings": [
+        "yakuza"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 430,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Pennsylvania",
+      "word_plain": "Pennsylvania",
+      "accepted_spellings": [
+        "Pennsylvania"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 431,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "salicylic acid",
+      "word_plain": "salicylic acid",
+      "accepted_spellings": [
+        "salicylic acid"
+      ],
+      "alternates": [],
+      "tags": [
+        "multi_word"
+      ],
+      "note": ""
+    },
+    {
+      "id": 432,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Gloucester",
+      "word_plain": "Gloucester",
+      "accepted_spellings": [
+        "Gloucester"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 433,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "sensilla",
+      "word_plain": "sensilla",
+      "accepted_spellings": [
+        "sensilla"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 434,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "ampulla",
+      "word_plain": "ampulla",
+      "accepted_spellings": [
+        "ampulla"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 435,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "stomatopods",
+      "word_plain": "stomatopods",
+      "accepted_spellings": [
+        "stomatopods"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 436,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "prosciutto",
+      "word_plain": "prosciutto",
+      "accepted_spellings": [
+        "prosciutto"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 437,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "eponymous",
+      "word_plain": "eponymous",
+      "accepted_spellings": [
+        "eponymous"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 438,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "solenodon",
+      "word_plain": "solenodon",
+      "accepted_spellings": [
+        "solenodon"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 439,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "frankincense",
+      "word_plain": "frankincense",
+      "accepted_spellings": [
+        "frankincense"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 440,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "chitinous",
+      "word_plain": "chitinous",
+      "accepted_spellings": [
+        "chitinous"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 441,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Presbyterian",
+      "word_plain": "Presbyterian",
+      "accepted_spellings": [
+        "Presbyterian"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 442,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Sierra Leone",
+      "word_plain": "Sierra Leone",
+      "accepted_spellings": [
+        "Sierra Leone"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized",
+        "multi_word"
+      ],
+      "note": ""
+    },
+    {
+      "id": 443,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "trichobothria",
+      "word_plain": "trichobothria",
+      "accepted_spellings": [
+        "trichobothria"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 444,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Krio",
+      "word_plain": "Krio",
+      "accepted_spellings": [
+        "Krio"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 445,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "lactobacillus",
+      "word_plain": "lactobacillus",
+      "accepted_spellings": [
+        "lactobacillus"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    },
+    {
+      "id": 446,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Bildungsroman",
+      "word_plain": "Bildungsroman",
+      "accepted_spellings": [
+        "Bildungsroman"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 447,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Cappadocia",
+      "word_plain": "Cappadocia",
+      "accepted_spellings": [
+        "Cappadocia"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized"
+      ],
+      "note": ""
+    },
+    {
+      "id": 448,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "Addis Ababa",
+      "word_plain": "Addis Ababa",
+      "accepted_spellings": [
+        "Addis Ababa"
+      ],
+      "alternates": [],
+      "tags": [
+        "capitalized",
+        "multi_word"
+      ],
+      "note": ""
+    },
+    {
+      "id": 449,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "spes phthisica",
+      "word_plain": "spes phthisica",
+      "accepted_spellings": [
+        "spes phthisica"
+      ],
+      "alternates": [],
+      "tags": [
+        "multi_word"
+      ],
+      "note": ""
+    },
+    {
+      "id": 450,
+      "level": "Three Bee",
+      "source_page": 6,
+      "word": "vibrissae",
+      "word_plain": "vibrissae",
+      "accepted_spellings": [
+        "vibrissae"
+      ],
+      "alternates": [],
+      "tags": [],
+      "note": ""
+    }
+  ]
+}
