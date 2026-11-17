@@ -1,7 +1,7 @@
 import { parseTranscript, isCorrect, spelledOut } from './grader.js';
 import { store, dayKey } from './store.js';
 
-export const APP_VERSION = '1.3.2';
+export const APP_VERSION = '1.4.0';
 
 // ───────────────────────── settings (per device) ─────────────────────────
 const DEFAULTS = { v: 2, wordRate: 0.7, talkRate: 0.8, pauseMs: 700, spellVolume: 0.55, thinkSeconds: 8, graduateAfter: 2, voiceURI: '' };
@@ -42,7 +42,9 @@ function status(w) {
   if (r.graduated) return 'learned';
   return 'solid';
 }
-const focusWords = () => WORDS.filter((w) => status(w) === 'focus');
+// A word switched Off (on the Focus words screen) is left out of every test until switched back On.
+const isOff = (w) => !!store.get(w.id)?.off;
+const focusWords = () => WORDS.filter((w) => status(w) === 'focus' && !isOff(w));
 
 // ───────────────────────── speech: talking ─────────────────────────
 let voice = null;
@@ -178,42 +180,97 @@ function renderHome() {
 // ───────────────────────── quiz ─────────────────────────
 let quiz = null;
 
-// Practice: focus words come back often (about 4 in 10 questions) until answered correctly enough;
-// new words come next; then other words, with "learned" words asked least.
+// ── Question order ──
+// • Each level has a shuffled "deck" of all its words, saved on this device. Words come in deck order,
+//   so no word repeats until the whole deck has been used — even if the app is closed and reopened.
+// • Focus words get extra turns (about 1 in 5 questions), but only if they were not asked in the
+//   last 10 questions and not in the last 10 minutes.
+// • A word asked in the last 20 minutes (on any device) waits for a later turn.
+// • Learned words are skipped half the time when their turn in the deck comes (asked less often).
+// • Words switched Off are never asked.
+const DECK_KEY = 'sb_deck_v2', RECENT_KEY = 'sb_recent_v1';
+const loadJSON = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } };
+function recentIds() { return loadJSON(RECENT_KEY, []); }
+function markAsked(id) { const r = recentIds().filter((x) => x !== id); r.push(id); localStorage.setItem(RECENT_KEY, JSON.stringify(r.slice(-40))); }
+function fromDeck(level, skip) {
+  const ids = WORDS.filter((w) => level === 'All' || w.level === level).map((w) => w.id);
+  const decks = loadJSON(DECK_KEY, {});
+  let d = decks[level];
+  const valid = d && Array.isArray(d.order) && d.order.length === ids.length;
+  if (!valid) d = { order: shuffle([...ids]), pos: 0 };
+  for (let guard = 0; guard < ids.length * 2 + 5; guard++) {
+    if (d.pos >= d.order.length) {
+      // new round: reshuffle, and don't start the new round with a word that was just asked
+      const last = new Set(recentIds().slice(-10));
+      const order = shuffle([...ids]);
+      d = { order: [...order.filter((id) => !last.has(id)), ...order.filter((id) => last.has(id))], pos: 0 };
+    }
+    const w = byId.get(d.order[d.pos++]);
+    if (!w || skip.has(w.id) || isOff(w)) continue;
+    if (guard < ids.length && Date.now() - (store.get(w.id)?.lastAt || 0) < 20 * 60 * 1000) continue;
+    if (status(w) === 'learned' && Math.random() < 0.5) continue;
+    decks[level] = d; localStorage.setItem(DECK_KEY, JSON.stringify(decks));
+    return w;
+  }
+  decks[level] = d; localStorage.setItem(DECK_KEY, JSON.stringify(decks));
+  return WORDS.find((w) => (level === 'All' || w.level === level) && !isOff(w)) || null;
+}
 function pickNext() {
-  const recent = quiz.recent.slice(-4);
+  const recent = recentIds();
+  const last10 = new Set(recent.slice(-10));
+  const restedLongEnough = (w) => Date.now() - (store.get(w.id)?.lastAt || 0) > 10 * 60 * 1000;
   if (quiz.mode === 'review') {
-    let pool = focusWords().filter((w) => !recent.includes(w.id));
-    if (!pool.length) pool = focusWords();
-    return pool.length ? pick(pool) : null;
+    // go through every focus word once (shuffled) before repeating any
+    const inNb = (w) => status(w) === 'focus';
+    quiz.queue = (quiz.queue || []).filter(inNb);
+    if (!quiz.queue.length) {
+      const lastId = quiz.items[quiz.items.length - 1]?.word.id;
+      quiz.queue = shuffle(focusWords().filter((w) => w.id !== lastId));
+      if (!quiz.queue.length) quiz.queue = focusWords();
+    }
+    return quiz.queue.shift() || null;
   }
   const inLevel = (w) => currentLevel === 'All' || w.level === currentLevel;
-  const all = WORDS.filter(inLevel);
-  const focus = all.filter((w) => status(w) === 'focus' && !recent.includes(w.id));
-  if (focus.length && Math.random() < 0.4) return pick(focus);
-  const fresh = all.filter((w) => status(w) === 'new' && !quiz.asked.has(w.id));
-  if (fresh.length) return pick(fresh);
-  const weight = { focus: 6, solid: 2, learned: 1 };
-  let pool = all.filter((w) => !quiz.asked.has(w.id) && !recent.includes(w.id));
-  if (!pool.length) { quiz.asked.clear(); pool = all.filter((w) => !recent.includes(w.id)); }
-  const bag = pool.flatMap((w) => Array(weight[status(w)] || 1).fill(w));
-  return bag.length ? pick(bag) : pick(all);
+  const focus = focusWords().filter((w) => inLevel(w) && !last10.has(w.id) && restedLongEnough(w));
+  if (focus.length && Math.random() < 0.2) return pick(focus);
+  return fromDeck(currentLevel, last10);
 }
 
 function startQuiz(mode) {
-  quiz = { mode, asked: new Set(), recent: [], count: 0, right: 0, word: null };
+  quiz = { mode, items: [], idx: -1, right: 0, queue: [] };
   nextQuestion();
 }
-
-function nextQuestion() {
-  dropRec();
-  const w = pickNext();
-  if (!w) { toast('No focus words left — great job! 🎉'); return renderHome(); }
-  quiz.word = w; quiz.asked.add(w.id); quiz.recent.push(w.id); quiz.count++;
-  quiz.q = { showText: false, replays: 0, startedAt: Date.now(), answeredAt: 0, baseLetters: '', session: null, transcriptAll: '', parsed: null, result: null,
-    override: null, hard: false, method: null };
+function newQ() {
+  return { showText: false, replays: 0, startedAt: Date.now(), answeredAt: 0, baseLetters: '', session: null, transcriptAll: '',
+    parsed: null, result: null, override: null, hard: false, method: null };
+}
+function showItem(i, speak) {
+  dropRec(); stopSpeaking();
+  quiz.idx = i;
+  const it = quiz.items[i];
+  quiz.word = it.word; quiz.q = it.q;
   renderQuestion();
-  askWord(w.word).then(() => { if (quiz?.word === w && !quiz.q.answeredAt) quiz.q.startedAt = Date.now(); });
+  if (speak && !it.q.result) {
+    const w = it.word;
+    askWord(w.word).then(() => { if (quiz?.word === w && !quiz.q.answeredAt) quiz.q.startedAt = Date.now(); });
+  }
+}
+// ▶ Next: save the current answer (if any), then go forward — to a question already seen, or a new one.
+// An unanswered question can be skipped; it is not recorded.
+function nextQuestion() {
+  commit();
+  if (quiz.idx < quiz.items.length - 1) return showItem(quiz.idx + 1, !quiz.items[quiz.idx + 1].q.result);
+  const w = pickNext();
+  if (!w) { toast(quiz.mode === 'review' ? 'No focus words switched On — great job! 🎉' : 'All words here are switched Off.'); return renderHome(); }
+  markAsked(w.id);
+  quiz.items.push({ word: w, q: newQ() });
+  showItem(quiz.items.length - 1, true);
+}
+// ◀ Prev: look back at the previous question (its result if it was answered, or answer it now if skipped).
+function prevQuestion() {
+  if (quiz.idx <= 0) return;
+  commit();
+  showItem(quiz.idx - 1, !quiz.items[quiz.idx - 1].q.result);
 }
 
 const maskWord = (sentence, word) => {
@@ -232,7 +289,11 @@ function renderQuestion() {
   $app.innerHTML = `
     <div class="quizhead">
       <span>${quiz.mode === 'review' ? '🔥 Focus words' : '▶ ' + esc(currentLevel)}</span>
-      <span>#${quiz.count} · ✅ ${quiz.right}</span>
+      <span>#${quiz.idx + 1} · ✅ ${quiz.right}</span>
+    </div>
+    <div class="qnav">
+      <button class="small" id="prevBtn" ${quiz.idx > 0 ? '' : 'disabled'}>◀ Prev</button>
+      <button class="small" id="skipBtn">${q.result ? 'Next ▶' : 'Skip ▶'}</button>
     </div>
     <section class="card center">
       <div class="helpers">
@@ -245,6 +306,8 @@ function renderQuestion() {
       <p class="muted small">Spell it letter by letter, then say the word.<br>Example: “S – O – U – R – C – E, source”</p>
       <div id="answerArea"></div>
     </section>`;
+  document.getElementById('prevBtn').onclick = prevQuestion;
+  document.getElementById('skipBtn').onclick = nextQuestion;
   bindHelpers();
   renderAnswerArea();
 }
@@ -476,7 +539,12 @@ function renderResult(area) {
     </details>`;
   const clue = document.getElementById('clue'); if (clue && q.showText) clue.innerHTML = clueHTML(true);
   document.getElementById('hardBtn').onclick = () => { q.hard = !q.hard; renderAnswerArea(); };
-  document.getElementById('nextBtn').onclick = () => { commit(); nextQuestion(); };
+  document.getElementById('nextBtn').onclick = nextQuestion;
+  const sk = document.getElementById('skipBtn'); if (sk) sk.textContent = 'Next ▶';
+  if (q.committed) { // looking back at a saved answer: show it, but it can no longer be changed
+    document.getElementById('hardBtn').disabled = true;
+    const par = area.querySelector('.parent'); if (par) par.outerHTML = '<p class="small muted">Saved — this answer can’t be changed now.</p>';
+  }
   area.querySelectorAll('[data-ov]').forEach((b) => b.onclick = () => { q.override = b.dataset.ov || null; renderAnswerArea(); });
 }
 
@@ -511,30 +579,52 @@ function commit() {
 function leaveQuiz() { commit(); dropRec(); stopSpeaking(); }
 
 // ───────────────────────── focus words ─────────────────────────
+// Each word has: 🔊 hear it · On/Off switch (Off = left out of all tests) · a button to move it
+// between 🔥 Focus and 🎓 Learned by hand.
 function renderFocus() {
   leaveQuiz(); $home.hidden = false;
-  const row = (w, extra) => { const r = store.get(w.id); return `
-    <li>
+  const focusAll = WORDS.filter((w) => status(w) === 'focus')
+    .sort((a, b) => (isOff(a) - isOff(b)) || (store.get(b.id).wrong - store.get(a.id).wrong));
+  const learned = WORDS.filter((w) => status(w) === 'learned')
+    .sort((a, b) => (isOff(a) - isOff(b)) || (store.get(b.id).lastAt - store.get(a.id).lastAt));
+  const active = focusAll.filter((w) => !isOff(w)).length;
+  const row = (w, moveLabel, extra) => { const r = store.get(w.id); const off = !!r.off; return `
+    <li class="${off ? 'offrow' : ''}">
       <button class="speak" data-say="${esc(w.word)}">🔊</button>
       <div class="grow"><b>${esc(w.word)}</b> <small class="muted">${esc(w.level)}</small><br>
-        <small>✅ ${r.correct} · ❌ ${r.wrong}${extra(r)}</small></div>
+        <small>✅ ${r.correct} · ❌ ${r.wrong}${extra(r)}${off ? ' · <b>Off — not in tests</b>' : ''}</small></div>
+      <label class="switch" title="On = in tests, Off = left out"><input type="checkbox" data-onoff="${w.id}" ${off ? '' : 'checked'}><span></span></label>
+      <button class="move" data-move="${w.id}">${moveLabel}</button>
     </li>`; };
-  const focus = focusWords().sort((a, b) => store.get(b.id).wrong - store.get(a.id).wrong);
-  const learned = WORDS.filter((w) => status(w) === 'learned').sort((a, b) => store.get(b.id).lastAt - store.get(a.id).lastAt);
+  const offCount = (list) => list.filter(isOff).length;
   $app.innerHTML = `
     <section class="card">
-      <h2>🔥 Focus words (${focus.length})</h2>
-      <p class="small muted">Words that were wrong or hard. They come up often until answered correctly ${settings.graduateAfter} times.</p>
-      ${focus.length ? `<button class="big warn" id="reviewNow">Practice focus words</button>` : '<p>None right now! 🎉</p>'}
-      <ul class="wordlist">${focus.map((w) => row(w, (r) => ` · correct ${r.reviewStreak || 0}/${settings.graduateAfter}${r.reasons?.length ? ' · ' + esc(r.reasons.join(', ')) : ''}`)).join('')}</ul>
+      <button class="big primary" id="startFocus" ${active ? '' : 'disabled'}>▶ Start practice (${active} words)</button>
+      <p class="small muted center">Practices the 🔥 Focus words that are switched On.</p>
     </section>
     <section class="card">
-      <h2>🎓 Learned (${learned.length})</h2>
-      <p class="small muted">Used to be focus words, now answered correctly. They come up less often.</p>
-      <ul class="wordlist">${learned.map((w) => row(w, () => '')).join('')}</ul>
+      <h2>🔥 Focus words (${focusAll.length}${offCount(focusAll) ? `, ${offCount(focusAll)} off` : ''})</h2>
+      <p class="small muted">Wrong or hard words. They come up often until answered correctly ${settings.graduateAfter} times.<br>
+        Switch = On/Off in tests · <b>→ 🎓</b> = move to Learned</p>
+      ${focusAll.length ? `<ul class="wordlist">${focusAll.map((w) => row(w, '→ 🎓', (r) => ` · correct ${r.reviewStreak || 0}/${settings.graduateAfter}`)).join('')}</ul>` : '<p>None right now! 🎉</p>'}
+    </section>
+    <section class="card">
+      <h2>🎓 Learned (${learned.length}${offCount(learned) ? `, ${offCount(learned)} off` : ''})</h2>
+      <p class="small muted">Answered correctly enough. They come up less often.<br><b>→ 🔥</b> = move back to Focus words</p>
+      <ul class="wordlist">${learned.map((w) => row(w, '→ 🔥', () => '')).join('')}</ul>
     </section>`;
-  const rv = document.getElementById('reviewNow'); if (rv) rv.onclick = () => startQuiz('review');
+  document.getElementById('startFocus').onclick = () => startQuiz('review');
   $app.querySelectorAll('[data-say]').forEach((b) => b.onclick = () => askWord(b.dataset.say));
+  $app.querySelectorAll('[data-onoff]').forEach((c) => c.onchange = () => {
+    const r = store.get(c.dataset.onoff); r.off = !c.checked; store.save(r); renderFocus();
+  });
+  $app.querySelectorAll('[data-move]').forEach((b) => b.onclick = () => {
+    const r = store.get(b.dataset.move);
+    if (r.inNotebook) { r.inNotebook = false; r.graduated = true; toast(`🎓 “${r.word}” moved to Learned`); }
+    else { r.inNotebook = true; r.graduated = false; toast(`🔥 “${r.word}” moved to Focus words`); }
+    r.reviewStreak = 0; r.reasons = [];
+    store.save(r); renderFocus();
+  });
 }
 
 // ───────────────────────── dashboard ─────────────────────────

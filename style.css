@@ -95,3 +95,13 @@ table.grid { border-collapse: separate; border-spacing: 0; font-size: 14px; }
 .grid td.ok { color: var(--ok); font-weight: 700; } .grid td.bad { color: var(--bad); font-weight: 700; background: #fff5f5; } .grid td.mix { color: #b7791f; font-weight: 700; }
 .fixrow { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
 .fix { padding: 16px 8px; font-size: 19px; font-weight: 700; background: #ffe9a3; }
+.qnav { display: flex; justify-content: space-between; margin: -2px 0 10px; } .qnav button { padding: 8px 16px; font-weight: 700; }
+/* v1.4 focus screen */
+.switch { position: relative; width: 50px; height: 30px; flex-shrink: 0; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.switch span { position: absolute; inset: 0; background: #ccc; border-radius: 30px; transition: .2s; }
+.switch span::before { content: ''; position: absolute; width: 24px; height: 24px; left: 3px; top: 3px; background: #fff; border-radius: 50%; transition: .2s; box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+.switch input:checked + span { background: var(--ok); }
+.switch input:checked + span::before { transform: translateX(20px); }
+.move { padding: 8px 10px; font-size: 15px; font-weight: 700; background: #fff7d1; flex-shrink: 0; }
+.offrow { opacity: .5; }
