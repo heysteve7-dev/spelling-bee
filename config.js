@@ -1,17 +1,10 @@
-// ─────────────────────────────────────────────────────────────
-// Firebase settings. Paste the config object from
-// Firebase Console → Project settings → General → Your apps → Web app.
-// Leave it as null to run in "this device only" mode (no sync).
-// ─────────────────────────────────────────────────────────────
-export const firebaseConfig = null;
-
-/* Example — replace with your own values:
+// Firebase settings for the Spelling Bee app
 export const firebaseConfig = {
-  apiKey: "AIza....",
-  authDomain: "your-project.firebaseapp.com",
-  projectId: "your-project",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "1234567890",
-  appId: "1:1234567890:web:abcdef"
+  apiKey: "AIzaSyDO-yV7SAlXTixfa-i7l0gd_9YlCq-n86k",
+  authDomain: "spelling-bee-ed5d5.firebaseapp.com",
+  projectId: "spelling-bee-ed5d5",
+  storageBucket: "spelling-bee-ed5d5.firebasestorage.app",
+  messagingSenderId: "77017180937",
+  appId: "1:77017180937:web:e088ffa9cd53164e6701d8",
+  measurementId: "G-XQEXEV5TZK"
 };
-*/
