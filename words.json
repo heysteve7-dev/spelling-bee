@@ -12,7 +12,8 @@
       "*": "British spelling",
       "**": "Preferred spelling"
     },
-    "method": "Per-word visual transcription cross-checked against Tesseract OCR; all 450 entries matched except two OCR misreads (ran, piñata) resolved visually."
+    "method": "Per-word visual transcription cross-checked against Tesseract OCR; all 450 entries matched except two OCR misreads (ran, piñata) resolved visually.",
+    "definitions_note": "part_of_speech/definition/sentence written for practice (kid-friendly); not official Scripps pronouncer text."
   },
   "words": [
     {
@@ -26,7 +27,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "moved fast on your feet (past tense of run)",
+      "sentence": "The dog ran across the yard to catch the ball."
     },
     {
       "id": 2,
@@ -39,7 +43,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "air that moves across the earth",
+      "sentence": "The wind blew my hat right off my head."
     },
     {
       "id": 3,
@@ -52,7 +59,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the part of the body you stand and walk on",
+      "sentence": "I scraped my leg when I fell off my bike."
     },
     {
       "id": 4,
@@ -65,7 +75,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "loose soil or earth",
+      "sentence": "The puppy dug a hole in the dirt."
     },
     {
       "id": 5,
@@ -78,7 +91,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a long, thin, straight stick of wood or metal",
+      "sentence": "Grandpa took his fishing rod to the lake."
     },
     {
       "id": 6,
@@ -91,7 +107,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "nice, pleasant, or well done",
+      "sentence": "You did a good job cleaning your room."
     },
     {
       "id": 7,
@@ -104,7 +123,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "the greatest amount or number",
+      "sentence": "She ate the most cookies at the party."
     },
     {
       "id": 8,
@@ -117,7 +139,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to cause pain or injury",
+      "sentence": "Be careful not to hurt yourself on the slide."
     },
     {
       "id": 9,
@@ -130,7 +155,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "nervous or quiet around people you do not know",
+      "sentence": "The shy boy hid behind his mother."
     },
     {
       "id": 10,
@@ -143,7 +171,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a rabbit, especially a young one",
+      "sentence": "The bunny hopped into the garden."
     },
     {
       "id": 11,
@@ -156,7 +187,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "toward a lower place",
+      "sentence": "We walked down the hill to the river."
     },
     {
       "id": 12,
@@ -169,7 +203,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "stairs; or movements made by lifting your feet",
+      "sentence": "There are ten steps up to our front door."
     },
     {
       "id": 13,
@@ -182,7 +219,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to swallow a liquid",
+      "sentence": "Remember to drink water after soccer practice."
     },
     {
       "id": 14,
@@ -195,7 +235,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "funny in a playful or foolish way",
+      "sentence": "My little brother made a silly face."
     },
     {
       "id": 15,
@@ -208,7 +251,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not well; having an illness",
+      "sentence": "I stayed home from school because I was sick."
     },
     {
       "id": 16,
@@ -221,7 +267,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a narrow trail for walking",
+      "sentence": "We followed the path through the woods."
     },
     {
       "id": 17,
@@ -234,7 +283,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a thin cloud of tiny water drops in the air",
+      "sentence": "The morning mist hid the top of the hill."
     },
     {
       "id": 18,
@@ -247,7 +299,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "bright points of light in the night sky",
+      "sentence": "We counted the stars from our backyard."
     },
     {
       "id": 19,
@@ -260,7 +315,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a large vehicle used to carry heavy loads",
+      "sentence": "The truck delivered a new couch to our house."
     },
     {
       "id": 20,
@@ -273,7 +331,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the heat, light, and flames from burning",
+      "sentence": "We toasted marshmallows over the fire."
     },
     {
       "id": 21,
@@ -286,7 +347,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not moving",
+      "sentence": "The lake was so still it looked like glass."
     },
     {
       "id": 22,
@@ -299,7 +363,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "interjection",
+      "definition": "a word used to greet someone",
+      "sentence": "Say hello to your new teacher."
     },
     {
       "id": 23,
@@ -312,7 +379,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small, thick plant with many branches",
+      "sentence": "A bird built a nest in the bush."
     },
     {
       "id": 24,
@@ -325,7 +395,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "after the usual or expected time",
+      "sentence": "We were late because of the traffic."
     },
     {
       "id": 25,
@@ -338,7 +411,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a machine that moves air or liquid",
+      "sentence": "We used a pump to fill the bike tires."
     },
     {
       "id": 26,
@@ -351,7 +427,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the hard outer covering of an animal, egg, or nut",
+      "sentence": "I found a pretty shell on the beach."
     },
     {
       "id": 27,
@@ -364,7 +443,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "long, soft thread used for knitting",
+      "sentence": "Grandma knitted a scarf with red yarn."
     },
     {
       "id": 28,
@@ -377,7 +459,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the body parts birds and insects use to fly",
+      "sentence": "The butterfly opened its colorful wings."
     },
     {
       "id": 29,
@@ -390,7 +475,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having a thin edge or point that can cut",
+      "sentence": "Be careful, that knife is sharp."
     },
     {
       "id": 30,
@@ -403,7 +491,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not hard to do",
+      "sentence": "The first math problem was easy."
     },
     {
       "id": 31,
@@ -416,7 +507,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the whole physical form of a person or animal",
+      "sentence": "Exercise keeps your body strong."
     },
     {
       "id": 32,
@@ -429,7 +523,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a building where people live",
+      "sentence": "Our house has a red door."
     },
     {
       "id": 33,
@@ -442,7 +539,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having a lot of money; or full of flavor",
+      "sentence": "The chocolate cake tasted rich and sweet."
     },
     {
       "id": 34,
@@ -455,7 +555,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to move or change position",
+      "sentence": "Please shift your chair so I can sit down."
     },
     {
       "id": 35,
@@ -468,7 +571,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the organ that pumps blood through the body",
+      "sentence": "Your heart beats faster when you run."
     },
     {
       "id": 36,
@@ -481,7 +587,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a long, pointed tooth that sticks out of an animal's mouth",
+      "sentence": "The elephant has a long ivory tusk."
     },
     {
       "id": 37,
@@ -494,7 +603,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to send something quickly toward a target",
+      "sentence": "Try to shoot the ball into the basket."
     },
     {
       "id": 38,
@@ -507,7 +619,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a sea animal with flippers that lives in cold waters",
+      "sentence": "The seal clapped its flippers at the zoo."
     },
     {
       "id": 39,
@@ -520,7 +635,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "flat and smooth; or able to be divided by two",
+      "sentence": "Four is an even number."
     },
     {
       "id": 40,
@@ -533,7 +651,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to jump headfirst into water",
+      "sentence": "She likes to dive into the deep end of the pool."
     },
     {
       "id": 41,
@@ -546,7 +667,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "sharp curved nails on an animal's feet",
+      "sentence": "The cat scratched the tree with its claws."
     },
     {
       "id": 42,
@@ -559,7 +683,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a thin line where something has split",
+      "sentence": "There is a crack in my phone screen."
     },
     {
       "id": 43,
@@ -572,7 +699,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to move toward someone or something",
+      "sentence": "Please come here and look at this."
     },
     {
       "id": 44,
@@ -585,7 +715,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "good or okay",
+      "sentence": "I feel fine today, thank you."
     },
     {
       "id": 45,
@@ -598,7 +731,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the coldest season of the year",
+      "sentence": "It sometimes snows in winter."
     },
     {
       "id": 46,
@@ -611,7 +747,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a round fruit with red, green, or yellow skin",
+      "sentence": "I packed an apple in my lunch box."
     },
     {
       "id": 47,
@@ -624,7 +763,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "something you hear",
+      "sentence": "I heard a strange sound outside."
     },
     {
       "id": 48,
@@ -637,7 +779,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "covered with moss, a soft green plant",
+      "sentence": "We sat on a mossy rock by the stream."
     },
     {
       "id": 49,
@@ -650,7 +795,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "the color of a lemon or the sun",
+      "sentence": "She wore a yellow raincoat."
     },
     {
       "id": 50,
@@ -663,7 +811,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to give off bright light",
+      "sentence": "The sun will shine all day tomorrow."
     },
     {
       "id": 51,
@@ -676,7 +827,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "thin, crispy slices of fried potato",
+      "sentence": "We ate chips and salsa at the picnic."
     },
     {
       "id": 52,
@@ -689,7 +843,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "seeds from certain plants that people cook and eat",
+      "sentence": "Mom made rice and beans for dinner."
     },
     {
       "id": 53,
@@ -702,7 +859,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the part of the face used to eat and speak",
+      "sentence": "Please close your mouth when you chew."
     },
     {
       "id": 54,
@@ -715,7 +875,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to scatter liquid in tiny drops",
+      "sentence": "Dad will spray the plants with water."
     },
     {
       "id": 55,
@@ -728,7 +891,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a period of twelve months",
+      "sentence": "My birthday comes once a year."
     },
     {
       "id": 56,
@@ -741,7 +907,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "what is real and correct",
+      "sentence": "Always tell the truth."
     },
     {
       "id": 57,
@@ -754,7 +923,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "thin material used for writing and drawing",
+      "sentence": "Write your name at the top of the paper."
     },
     {
       "id": 58,
@@ -767,7 +939,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small furry animal with long ears",
+      "sentence": "The rabbit nibbled on a carrot."
     },
     {
       "id": 59,
@@ -780,7 +955,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to give food to",
+      "sentence": "It is my job to feed the fish."
     },
     {
       "id": 60,
@@ -793,7 +971,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "higher than all the others",
+      "sentence": "He is the tallest kid in our class."
     },
     {
       "id": 61,
@@ -806,7 +987,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "in or into a building or space",
+      "sentence": "Come inside, it is starting to rain."
     },
     {
       "id": 62,
@@ -819,7 +1003,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "turned into ice; very cold",
+      "sentence": "The pond was frozen solid."
     },
     {
       "id": 63,
@@ -832,7 +1019,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to say words out loud",
+      "sentence": "Please speak clearly so everyone can hear."
     },
     {
       "id": 64,
@@ -845,7 +1035,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "high, steep walls of rock",
+      "sentence": "Birds nest on the cliffs above the ocean."
     },
     {
       "id": 65,
@@ -858,7 +1051,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a very large sea mammal",
+      "sentence": "A whale came up to breathe near our boat."
     },
     {
       "id": 66,
@@ -871,7 +1067,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a place where people buy and sell things",
+      "sentence": "We bought fresh peaches at the market."
     },
     {
       "id": 67,
@@ -884,7 +1083,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a group of birds or sheep",
+      "sentence": "A flock of geese flew over the school."
     },
     {
       "id": 68,
@@ -897,7 +1099,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a loud crushing sound",
+      "sentence": "I love the crunch of fresh carrots."
     },
     {
       "id": 69,
@@ -910,7 +1115,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a reptile with four legs, scaly skin, and a long tail",
+      "sentence": "A lizard sunned itself on the warm rock."
     },
     {
       "id": 70,
@@ -923,7 +1131,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to be careful of danger",
+      "sentence": "Beware of the dog behind the fence."
     },
     {
       "id": 71,
@@ -936,7 +1147,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to shine with small flashes of light",
+      "sentence": "The snow seemed to sparkle in the sun."
     },
     {
       "id": 72,
@@ -949,7 +1163,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a warm knitted top",
+      "sentence": "Wear a sweater, it is chilly outside."
     },
     {
       "id": 73,
@@ -962,7 +1179,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a person trained to care for sick people",
+      "sentence": "The nurse checked my temperature."
     },
     {
       "id": 74,
@@ -975,7 +1195,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not correct",
+      "sentence": "I got the wrong answer, so I tried again."
     },
     {
       "id": 75,
@@ -988,7 +1211,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "jumped on one or both feet",
+      "sentence": "The frog hopped onto a lily pad."
     },
     {
       "id": 76,
@@ -1001,7 +1227,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "coins and bills used to buy things",
+      "sentence": "I am saving my money for a new book."
     },
     {
       "id": 77,
@@ -1014,7 +1243,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small, simple house, often made of wood",
+      "sentence": "We stayed in a cabin in the mountains."
     },
     {
       "id": 78,
@@ -1027,7 +1259,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the state of having no light",
+      "sentence": "The cat could see in the darkness."
     },
     {
       "id": 79,
@@ -1040,7 +1275,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "every time; forever",
+      "sentence": "I always brush my teeth before bed."
     },
     {
       "id": 80,
@@ -1053,7 +1291,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to begin to grow",
+      "sentence": "The seeds will sprout in a few days."
     },
     {
       "id": 81,
@@ -1066,7 +1307,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to cut something into a shape",
+      "sentence": "We carve pumpkins every October."
     },
     {
       "id": 82,
@@ -1079,7 +1323,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "dark shapes made when something blocks light",
+      "sentence": "Our shadows grew long in the evening sun."
     },
     {
       "id": 83,
@@ -1092,7 +1339,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the early part of the day",
+      "sentence": "I eat breakfast every morning."
     },
     {
       "id": 84,
@@ -1105,7 +1355,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "living; not dead",
+      "sentence": "The plant is still alive even after the storm."
     },
     {
       "id": 85,
@@ -1118,7 +1371,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the planet we live on; also soil",
+      "sentence": "The earth travels around the sun."
     },
     {
       "id": 86,
@@ -1131,7 +1387,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a person you like and enjoy being with",
+      "sentence": "My best friend lives next door."
     },
     {
       "id": 87,
@@ -1144,7 +1403,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "beautiful or very nice",
+      "sentence": "What a lovely garden you have."
     },
     {
       "id": 88,
@@ -1157,7 +1419,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to come or go back; to give back",
+      "sentence": "Please return the library book on time."
     },
     {
       "id": 89,
@@ -1170,7 +1435,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "one of two equal parts",
+      "sentence": "I gave my sister half of my sandwich."
     },
     {
       "id": 90,
@@ -1183,7 +1451,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very fast",
+      "sentence": "The swift deer leaped over the log."
     },
     {
       "id": 91,
@@ -1196,7 +1467,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the father of your mother or father",
+      "sentence": "My grandfather tells funny stories."
     },
     {
       "id": 92,
@@ -1209,7 +1483,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "marks left by feet",
+      "sentence": "We saw footprints in the wet sand."
     },
     {
       "id": 93,
@@ -1222,7 +1499,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the feeling of being afraid",
+      "sentence": "He faced his fear of the dark."
     },
     {
       "id": 94,
@@ -1235,7 +1515,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "wanting something to drink",
+      "sentence": "Running made me very thirsty."
     },
     {
       "id": 95,
@@ -1248,7 +1531,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to look closely or carefully",
+      "sentence": "We tried to peer through the foggy window."
     },
     {
       "id": 96,
@@ -1261,7 +1547,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "kind, soft, and careful",
+      "sentence": "Be gentle when you pet the kitten."
     },
     {
       "id": 97,
@@ -1274,7 +1563,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a puzzling question with a clever answer",
+      "sentence": "My dad told me a riddle at dinner."
     },
     {
       "id": 98,
@@ -1287,7 +1579,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the sound you make when you speak or sing",
+      "sentence": "She has a beautiful singing voice."
     },
     {
       "id": 99,
@@ -1300,7 +1595,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a soft, fuzzy fruit with a large pit",
+      "sentence": "The peach was sweet and juicy."
     },
     {
       "id": 100,
@@ -1313,7 +1611,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "flat, round cakes cooked in a pan",
+      "sentence": "We had pancakes with syrup for breakfast."
     },
     {
       "id": 101,
@@ -1326,7 +1627,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a sickness",
+      "sentence": "He missed a week of school because of an illness."
     },
     {
       "id": 102,
@@ -1339,7 +1643,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to guide or show the way",
+      "sentence": "The teacher will lead us to the library."
     },
     {
       "id": 103,
@@ -1352,7 +1659,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to make a long, low sound of pain or unhappiness",
+      "sentence": "The kids began to groan when they heard about the test."
     },
     {
       "id": 104,
@@ -1365,7 +1675,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a slow-moving animal that hangs in trees",
+      "sentence": "The sloth hung upside down from a branch."
     },
     {
       "id": 105,
@@ -1378,7 +1691,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to make cloth by looping yarn with needles",
+      "sentence": "My aunt can knit a hat in one day."
     },
     {
       "id": 106,
@@ -1391,7 +1707,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a loose cape worn over clothes",
+      "sentence": "The wizard wore a long purple cloak."
     },
     {
       "id": 107,
@@ -1404,7 +1723,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a line of people, bands, and floats moving through the street",
+      "sentence": "We watched the parade on the Fourth of July."
     },
     {
       "id": 108,
@@ -1417,7 +1739,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to make a high sound by blowing air through your lips",
+      "sentence": "Can you whistle a song?"
     },
     {
       "id": 109,
@@ -1430,7 +1755,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the whole amount",
+      "sentence": "The total for our groceries was forty dollars."
     },
     {
       "id": 110,
@@ -1443,7 +1771,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "inside a building",
+      "sentence": "We played indoors because it was raining."
     },
     {
       "id": 111,
@@ -1456,7 +1787,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a problem or difficulty",
+      "sentence": "The puppy got into trouble for chewing a shoe."
     },
     {
       "id": 112,
@@ -1469,7 +1803,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to rest and become calm",
+      "sentence": "I like to relax by reading a book."
     },
     {
       "id": 113,
@@ -1482,7 +1819,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to come to the end of something",
+      "sentence": "Finish your homework before you play."
     },
     {
       "id": 114,
@@ -1495,7 +1835,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a special day of celebration or rest",
+      "sentence": "Thanksgiving is my favorite holiday."
     },
     {
       "id": 115,
@@ -1508,7 +1851,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "being safe from harm",
+      "sentence": "Wear a helmet for safety."
     },
     {
       "id": 116,
@@ -1521,7 +1867,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "thick and strong; a little heavy",
+      "sentence": "The stout old tree survived the storm."
     },
     {
       "id": 117,
@@ -1534,7 +1883,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "small animals with eight legs that spin webs",
+      "sentence": "Spiders spun webs in the corner of the barn."
     },
     {
       "id": 118,
@@ -1547,7 +1899,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "whole; complete",
+      "sentence": "We ate the entire pizza."
     },
     {
       "id": 119,
@@ -1560,7 +1915,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a place where books are kept for people to borrow",
+      "sentence": "I borrow books from the library every week."
     },
     {
       "id": 120,
@@ -1573,7 +1931,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a person who shows others the way",
+      "sentence": "Our guide led us through the museum."
     },
     {
       "id": 121,
@@ -1586,7 +1947,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a place where sick or hurt people get care",
+      "sentence": "The doctor works at the hospital."
     },
     {
       "id": 122,
@@ -1599,7 +1963,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a yellow, tangy sauce for food",
+      "sentence": "I like mustard on my hot dog."
     },
     {
       "id": 123,
@@ -1612,7 +1979,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a business; or people you spend time with",
+      "sentence": "My mom works for a big company."
     },
     {
       "id": 124,
@@ -1625,7 +1995,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a spicy root used in cooking",
+      "sentence": "Ginger makes the soup taste warm and spicy."
     },
     {
       "id": 125,
@@ -1638,7 +2011,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not wide",
+      "sentence": "The path was too narrow for two bikes."
     },
     {
       "id": 126,
@@ -1651,7 +2027,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "in the middle; not big or small",
+      "sentence": "I would like a medium cup of juice."
     },
     {
       "id": 127,
@@ -1664,7 +2043,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "coins worth one cent each",
+      "sentence": "I found three pennies under the couch."
     },
     {
       "id": 128,
@@ -1677,7 +2059,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "taking long walks in nature",
+      "sentence": "We went hiking in the hills on Saturday."
     },
     {
       "id": 129,
@@ -1690,7 +2075,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "silly; not wise",
+      "sentence": "It was foolish to leave my lunch at home."
     },
     {
       "id": 130,
@@ -1703,7 +2091,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "scared",
+      "sentence": "My sister is afraid of thunder."
     },
     {
       "id": 131,
@@ -1716,7 +2107,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to keep something in your mind",
+      "sentence": "Remember to bring your library book."
     },
     {
       "id": 132,
@@ -1729,7 +2123,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "something that happens because of something else",
+      "sentence": "The result of the game was a tie."
     },
     {
       "id": 133,
@@ -1742,7 +2139,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very pleasant and delightful",
+      "sentence": "The little town was charming."
     },
     {
       "id": 134,
@@ -1755,7 +2155,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "where something comes from",
+      "sentence": "The sun is a source of light and heat."
     },
     {
       "id": 135,
@@ -1768,7 +2171,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "smooth, round gems that grow inside oysters",
+      "sentence": "She wore a necklace of white pearls."
     },
     {
       "id": 136,
@@ -1781,7 +2187,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having a sharp, sour taste",
+      "sentence": "The lemonade was sweet and tangy."
     },
     {
       "id": 137,
@@ -1794,7 +2203,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "large wild animals",
+      "sentence": "The forest was full of wild beasts in the story."
     },
     {
       "id": 138,
@@ -1807,7 +2219,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "shaking because you are cold or scared",
+      "sentence": "The boy was shivering after his swim."
     },
     {
       "id": 139,
@@ -1820,7 +2235,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a long, flat-bottomed boat for carrying goods",
+      "sentence": "A barge carried coal down the river."
     },
     {
       "id": 140,
@@ -1833,7 +2251,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "in a cranky, bad-tempered way",
+      "sentence": "He grumpily got out of bed."
     },
     {
       "id": 141,
@@ -1846,7 +2267,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "without bumps or problems",
+      "sentence": "The plane landed smoothly."
     },
     {
       "id": 142,
@@ -1859,7 +2283,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small, cozy house",
+      "sentence": "They spent the summer in a cottage by the sea."
     },
     {
       "id": 143,
@@ -1872,7 +2299,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not proud or bragging",
+      "sentence": "She stayed humble after winning the prize."
     },
     {
       "id": 144,
@@ -1885,7 +2315,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the number 70",
+      "sentence": "My grandma just turned seventy."
     },
     {
       "id": 145,
@@ -1898,7 +2331,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to hang loosely and swing",
+      "sentence": "Don't let your feet dangle off the bridge."
     },
     {
       "id": 146,
@@ -1911,7 +2347,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the amount of space between two places",
+      "sentence": "What is the distance from here to the park?"
     },
     {
       "id": 147,
@@ -1924,7 +2363,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a light, gentle wind",
+      "sentence": "A cool breeze came through the window."
     },
     {
       "id": 148,
@@ -1937,7 +2379,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "flew high in the air",
+      "sentence": "The eagle soared above the mountains."
     },
     {
       "id": 149,
@@ -1950,7 +2395,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very tired and stressed",
+      "sentence": "Mom felt frazzled after a busy day."
     },
     {
       "id": 150,
@@ -1963,7 +2411,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a tall plant with hollow, woody stems",
+      "sentence": "Pandas love to eat bamboo."
     },
     {
       "id": 151,
@@ -1976,7 +2427,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "small round pieces used to fasten clothes",
+      "sentence": "My coat has four big buttons."
     },
     {
       "id": 152,
@@ -1989,7 +2443,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to hold someone close in a loving way",
+      "sentence": "I like to cuddle with my puppy."
     },
     {
       "id": 153,
@@ -2002,7 +2459,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "swollen or soft and round",
+      "sentence": "The clouds looked white and puffy."
     },
     {
       "id": 154,
@@ -2015,7 +2475,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "walked quietly on the tips of your toes",
+      "sentence": "We tiptoed past the sleeping baby."
     },
     {
       "id": 155,
@@ -2028,7 +2491,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "quick to learn and understand; smart",
+      "sentence": "The clever fox found a way across the river."
     },
     {
       "id": 156,
@@ -2041,7 +2507,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a room or floor below the ground level of a building",
+      "sentence": "We keep old toys in the basement."
     },
     {
       "id": 157,
@@ -2054,7 +2523,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a rough, heavy cloth used for sacks",
+      "sentence": "The potatoes came in a burlap bag."
     },
     {
       "id": 158,
@@ -2067,7 +2539,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "land that is wet and soggy, like a marsh or swamp",
+      "sentence": "Many birds live in the wetlands."
     },
     {
       "id": 159,
@@ -2080,7 +2555,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to ask someone to come to an event",
+      "sentence": "I will invite my whole class to my party."
     },
     {
       "id": 160,
@@ -2093,7 +2571,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "insects with large, colorful wings",
+      "sentence": "Butterflies fluttered around the flowers."
     },
     {
       "id": 161,
@@ -2106,7 +2587,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a large brown seaweed",
+      "sentence": "Sea otters wrap themselves in kelp to sleep."
     },
     {
       "id": 162,
@@ -2119,7 +2603,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "something that someone owns, such as land or a building",
+      "sentence": "The fence marks the edge of our property."
     },
     {
       "id": 163,
@@ -2132,7 +2619,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "with care and attention",
+      "sentence": "Carry the eggs carefully."
     },
     {
       "id": 164,
@@ -2145,7 +2635,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "breathing in noisily through the nose, as when crying or sick",
+      "sentence": "She was sniffling because of her cold."
     },
     {
       "id": 165,
@@ -2158,7 +2651,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "preposition",
+      "definition": "under; below",
+      "sentence": "The cat hid beneath the bed."
     },
     {
       "id": 166,
@@ -2171,7 +2667,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a powerful farm vehicle used to pull machines",
+      "sentence": "The farmer drove the tractor across the field."
     },
     {
       "id": 167,
@@ -2184,7 +2683,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to allow",
+      "sentence": "Our school does not permit gum in class."
     },
     {
       "id": 168,
@@ -2197,7 +2699,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a cloth or metal cover that sticks out over a window or door",
+      "sentence": "We stood under the awning to stay dry."
     },
     {
       "id": 169,
@@ -2210,7 +2715,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "changing your mind often",
+      "sentence": "The fickle weather changed from sunny to rainy."
     },
     {
       "id": 170,
@@ -2223,7 +2731,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a happy, relaxed feeling when worry or pain goes away",
+      "sentence": "It was a relief to find my lost dog."
     },
     {
       "id": 171,
@@ -2236,7 +2747,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having to do with the moon",
+      "sentence": "We watched the lunar eclipse at night."
     },
     {
       "id": 172,
@@ -2249,7 +2763,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "refusing to buy or use something as a protest",
+      "sentence": "The students were boycotting the cafeteria's new menu."
     },
     {
       "id": 173,
@@ -2262,7 +2779,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "melted by great heat",
+      "sentence": "Molten lava flowed down the volcano."
     },
     {
       "id": 174,
@@ -2275,7 +2795,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "among the best of a group",
+      "sentence": "Only elite athletes compete in the Olympics."
     },
     {
       "id": 175,
@@ -2288,7 +2811,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "made by crossing threads or strips over and under each other",
+      "sentence": "The basket was woven from long grasses."
     },
     {
       "id": 176,
@@ -2301,7 +2827,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to announce publicly",
+      "sentence": "The king will proclaim a holiday."
     },
     {
       "id": 177,
@@ -2314,7 +2843,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small cap worn on the finger to protect it while sewing",
+      "sentence": "Grandma uses a thimble when she sews."
     },
     {
       "id": 178,
@@ -2327,7 +2859,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the legal right and duty to take care of someone",
+      "sentence": "The parents shared custody of their children."
     },
     {
       "id": 179,
@@ -2340,7 +2875,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a crunchy mix of oats, nuts, and dried fruit",
+      "sentence": "I eat granola with yogurt."
     },
     {
       "id": 180,
@@ -2353,7 +2891,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a brave fighter",
+      "sentence": "The warrior in the story protected the village."
     },
     {
       "id": 181,
@@ -2366,7 +2907,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "stiff and not able to bend",
+      "sentence": "The cardboard was too rigid to fold."
     },
     {
       "id": 182,
@@ -2379,7 +2923,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "strong, wild, and frightening",
+      "sentence": "The lion gave a fierce roar."
     },
     {
       "id": 183,
@@ -2392,7 +2939,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the sound of laughing",
+      "sentence": "Laughter filled the classroom."
     },
     {
       "id": 184,
@@ -2405,7 +2955,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "money paid regularly for a job",
+      "sentence": "The teacher gets her salary every month."
     },
     {
       "id": 185,
@@ -2418,7 +2971,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to go out of sight",
+      "sentence": "The magician made the coin disappear."
     },
     {
       "id": 186,
@@ -2431,7 +2987,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a runner who jumps over barriers in a race",
+      "sentence": "The hurdler leaped over every barrier."
     },
     {
       "id": 187,
@@ -2444,7 +3003,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a comfortable room for relaxing",
+      "sentence": "We waited in the hotel lounge."
     },
     {
       "id": 188,
@@ -2457,7 +3019,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "cheerful and friendly",
+      "sentence": "Our jovial neighbor always waves and smiles."
     },
     {
       "id": 189,
@@ -2470,7 +3035,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "lower in quality or rank",
+      "sentence": "This cheap toy is inferior to the one I had before."
     },
     {
       "id": 190,
@@ -2485,7 +3053,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the twelfth month of the year",
+      "sentence": "Our spelling bee is in December."
     },
     {
       "id": 191,
@@ -2498,7 +3069,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the length of time something lasts",
+      "sentence": "We stayed inside for the duration of the storm."
     },
     {
       "id": 192,
@@ -2511,7 +3085,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a book that lists words and their meanings",
+      "sentence": "Look up the word in the dictionary."
     },
     {
       "id": 193,
@@ -2524,7 +3101,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a company or the work of buying and selling",
+      "sentence": "My uncle owns a small business."
     },
     {
       "id": 194,
@@ -2537,7 +3117,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to put someone or something back in a former place",
+      "sentence": "The coach will reinstate him on the team next week."
     },
     {
       "id": 195,
@@ -2550,7 +3133,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to look at closely and carefully",
+      "sentence": "The doctor will examine your throat."
     },
     {
       "id": 196,
@@ -2563,7 +3149,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "preposition",
+      "definition": "against (often written vs.)",
+      "sentence": "Tonight's game is Texas versus Oklahoma."
     },
     {
       "id": 197,
@@ -2576,7 +3165,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a soft song sung to help a baby sleep",
+      "sentence": "Mom sang a lullaby to the baby."
     },
     {
       "id": 198,
@@ -2589,7 +3181,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "completely different; across from",
+      "sentence": "Hot is the opposite of cold."
     },
     {
       "id": 199,
@@ -2602,7 +3197,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "thin, soft papers used for blowing your nose",
+      "sentence": "Please pass me the box of tissues."
     },
     {
       "id": 200,
@@ -2615,7 +3213,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a large ocean fish with a long, pointed snout",
+      "sentence": "The fisherman caught a huge marlin."
     },
     {
       "id": 201,
@@ -2630,7 +3231,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a holiday on October 31 when children wear costumes",
+      "sentence": "I dressed as a pirate for Halloween."
     },
     {
       "id": 202,
@@ -2643,7 +3247,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "something nice said to praise someone",
+      "sentence": "She gave me a compliment on my drawing."
     },
     {
       "id": 203,
@@ -2656,7 +3263,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an agreement where each side gives up something",
+      "sentence": "We made a compromise and took turns."
     },
     {
       "id": 204,
@@ -2669,7 +3279,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an event, often an unusual or unpleasant one",
+      "sentence": "The teacher reported the incident on the playground."
     },
     {
       "id": 205,
@@ -2684,7 +3297,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "from Japan, or the language of Japan",
+      "sentence": "We ate Japanese noodles for lunch."
     },
     {
       "id": 206,
@@ -2697,7 +3313,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "money or time put into something to get a benefit later",
+      "sentence": "Saving for college is a smart investment."
     },
     {
       "id": 207,
@@ -2710,7 +3329,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "eyeglasses with lenses that help you see both near and far",
+      "sentence": "Grandpa wears bifocals to read."
     },
     {
       "id": 208,
@@ -2723,7 +3345,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "knives, forks, and spoons",
+      "sentence": "Set the cutlery next to each plate."
     },
     {
       "id": 209,
@@ -2736,7 +3361,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a tool with a sharp edge for cutting wood or stone",
+      "sentence": "The sculptor used a chisel to shape the statue."
     },
     {
       "id": 210,
@@ -2749,7 +3377,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an event held to raise money for a cause",
+      "sentence": "Our school held a bake sale fundraiser."
     },
     {
       "id": 211,
@@ -2762,7 +3393,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a scientist who studies rocks and the earth",
+      "sentence": "The geologist studied the layers of rock."
     },
     {
       "id": 212,
@@ -2775,7 +3409,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "shouted in a loud, deep voice",
+      "sentence": "The coach bellowed instructions across the field."
     },
     {
       "id": 213,
@@ -2788,7 +3425,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a living thing",
+      "sentence": "A tiny bacterium is an organism."
     },
     {
       "id": 214,
@@ -2801,7 +3441,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small, plump bird that lives on the ground",
+      "sentence": "A quail ran across the path."
     },
     {
       "id": 215,
@@ -2814,7 +3457,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the layer of air around the earth; or the mood of a place",
+      "sentence": "The atmosphere protects the earth from the sun's harmful rays."
     },
     {
       "id": 216,
@@ -2827,7 +3473,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a sad feeling when something does not happen as hoped",
+      "sentence": "Losing the game was a big disappointment."
     },
     {
       "id": 217,
@@ -2840,7 +3489,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "staying away from school without permission",
+      "sentence": "The truant student was sent to the office."
     },
     {
       "id": 218,
@@ -2853,7 +3505,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small, thin booklet with information",
+      "sentence": "The museum gave us a pamphlet about dinosaurs."
     },
     {
       "id": 219,
@@ -2866,7 +3521,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a very light gas used to make balloons float",
+      "sentence": "The balloons were filled with helium."
     },
     {
       "id": 220,
@@ -2879,7 +3537,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "offered an idea",
+      "sentence": "My friend suggested that we play tag."
     },
     {
       "id": 221,
@@ -2892,7 +3553,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "smart apes that live in African forests",
+      "sentence": "Chimpanzees use sticks as tools."
     },
     {
       "id": 222,
@@ -2905,7 +3569,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "in great need and willing to try anything",
+      "sentence": "The lost hikers were desperate for water."
     },
     {
       "id": 223,
@@ -2918,7 +3585,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a feeling of being bothered",
+      "sentence": "The buzzing fly was an annoyance."
     },
     {
       "id": 224,
@@ -2931,7 +3601,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "something that stops an activity for a short time",
+      "sentence": "Sorry for the interruption."
     },
     {
       "id": 225,
@@ -2944,7 +3617,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to focus all your attention",
+      "sentence": "It is hard to concentrate when it is noisy."
     },
     {
       "id": 226,
@@ -2959,7 +3635,10 @@
       "tags": [
         "diacritic"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a decorated container filled with candy that is broken at parties",
+      "sentence": "The kids took turns hitting the piñata."
     },
     {
       "id": 227,
@@ -2972,7 +3651,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an area of land that belongs to or is controlled by someone",
+      "sentence": "The wolf pack guarded its territory."
     },
     {
       "id": 228,
@@ -2985,7 +3667,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "people or animals that fall behind the group",
+      "sentence": "The teacher waited for the stragglers to catch up."
     },
     {
       "id": 229,
@@ -2998,7 +3683,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a person or animal born with no color in the skin, hair, or eyes",
+      "sentence": "The zoo has an albino alligator."
     },
     {
       "id": 230,
@@ -3011,7 +3699,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very silly; deserving to be laughed at",
+      "sentence": "The clown wore a ridiculous hat."
     },
     {
       "id": 231,
@@ -3024,7 +3715,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a train that runs on a single rail",
+      "sentence": "We rode the monorail at the theme park."
     },
     {
       "id": 232,
@@ -3037,7 +3731,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "done to find out more about something",
+      "sentence": "The scientists went on an exploratory trip to the cave."
     },
     {
       "id": 233,
@@ -3050,7 +3747,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "a deep blue-purple color",
+      "sentence": "The night sky turned indigo."
     },
     {
       "id": 234,
@@ -3063,7 +3763,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a German sausage",
+      "sentence": "Dad grilled bratwurst for the cookout."
     },
     {
       "id": 235,
@@ -3076,7 +3779,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "arranged in the order of the letters of the alphabet",
+      "sentence": "Put the names in alphabetical order."
     },
     {
       "id": 236,
@@ -3089,7 +3795,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "being honest and doing what is right",
+      "sentence": "A person of integrity tells the truth."
     },
     {
       "id": 237,
@@ -3104,7 +3813,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a state in the northwest United States",
+      "sentence": "Oregon has tall forests and a rocky coast."
     },
     {
       "id": 238,
@@ -3117,7 +3829,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an answer that argues against what someone else said",
+      "sentence": "The debater gave a strong rebuttal."
     },
     {
       "id": 239,
@@ -3130,7 +3845,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an unfair opinion about someone formed without good reason",
+      "sentence": "We should treat people fairly and without prejudice."
     },
     {
       "id": 240,
@@ -3143,7 +3861,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "unity and support among people with the same goal",
+      "sentence": "The team showed solidarity by wearing the same ribbons."
     },
     {
       "id": 241,
@@ -3156,7 +3877,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having patches of white, orange, and black, like a cat; or a printed cotton cloth",
+      "sentence": "Our calico cat has three colors of fur."
     },
     {
       "id": 242,
@@ -3169,7 +3893,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the first artificial satellite, launched by the Soviet Union in 1957",
+      "sentence": "Sputnik was the first satellite to orbit the earth."
     },
     {
       "id": 243,
@@ -3182,7 +3909,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small case that holds ink or another supply and fits into a machine",
+      "sentence": "The printer needs a new ink cartridge."
     },
     {
       "id": 244,
@@ -3195,7 +3925,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the unfair separation of groups of people, especially by race",
+      "sentence": "Rosa Parks helped fight segregation on buses."
     },
     {
       "id": 245,
@@ -3208,7 +3941,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "thin, flat breads made from corn or flour",
+      "sentence": "We wrapped the beans in warm tortillas."
     },
     {
       "id": 246,
@@ -3221,7 +3957,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a person who is not in the military",
+      "sentence": "The soldier thanked the civilian for her help."
     },
     {
       "id": 247,
@@ -3242,7 +3981,10 @@
       "tags": [
         "has_alternate_spelling"
       ],
-      "note": "American spelling listed first; alternate is British (*)"
+      "note": "American spelling listed first; alternate is British (*)",
+      "part_of_speech": "noun",
+      "definition": "a substance added to soil to help plants grow",
+      "sentence": "Dad spread fertilizer on the lawn."
     },
     {
       "id": 248,
@@ -3255,7 +3997,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a person learning a skill by working with an expert",
+      "sentence": "The baker's apprentice learned to make bread."
     },
     {
       "id": 249,
@@ -3268,7 +4013,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "made by people rather than found in nature",
+      "sentence": "The jacket is made of synthetic fabric."
     },
     {
       "id": 250,
@@ -3283,7 +4031,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "Julius Caesar, a famous ruler of ancient Rome",
+      "sentence": "Julius Caesar was a famous Roman leader."
     },
     {
       "id": 251,
@@ -3296,7 +4047,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "exciting, fancy, and attractive",
+      "sentence": "The movie star wore a glamorous gown."
     },
     {
       "id": 252,
@@ -3309,7 +4063,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "small animals like lizards with smooth, moist skin",
+      "sentence": "Salamanders live under logs near the creek."
     },
     {
       "id": 253,
@@ -3322,7 +4079,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "being stopped for a time, or the parts that make a car ride smoothly",
+      "sentence": "The car's suspension makes the bumpy road feel smooth."
     },
     {
       "id": 254,
@@ -3335,7 +4095,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a woman who uses magic in stories",
+      "sentence": "The sorceress cast a spell on the castle."
     },
     {
       "id": 255,
@@ -3348,7 +4111,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "made up; not real",
+      "sentence": "The story's characters are fictitious."
     },
     {
       "id": 256,
@@ -3361,7 +4127,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a car with a roof that can be folded down",
+      "sentence": "We drove to the beach in a convertible."
     },
     {
       "id": 257,
@@ -3374,7 +4143,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a rude, sarcastic way of speaking",
+      "sentence": "His snarkiness made his sister roll her eyes."
     },
     {
       "id": 258,
@@ -3387,7 +4159,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the quality of being one of a kind; a point of extreme density in space",
+      "sentence": "Scientists think a black hole has a singularity at its center."
     },
     {
       "id": 259,
@@ -3400,7 +4175,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "something valuable promised to a lender in case a loan is not repaid",
+      "sentence": "They used their house as collateral for the loan."
     },
     {
       "id": 260,
@@ -3413,7 +4191,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the act of welcoming someone into a group, often with a ceremony",
+      "sentence": "The new scouts had an initiation ceremony."
     },
     {
       "id": 261,
@@ -3426,7 +4207,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "makeup used to darken eyelashes",
+      "sentence": "She put on mascara before the play."
     },
     {
       "id": 262,
@@ -3439,7 +4223,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a large group of soldiers",
+      "sentence": "The battalion marched in the parade."
     },
     {
       "id": 263,
@@ -3452,7 +4239,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an earlier event used as an example for later ones",
+      "sentence": "The judge's decision set a precedent for future cases."
     },
     {
       "id": 264,
@@ -3473,7 +4263,10 @@
       "tags": [
         "has_alternate_spelling"
       ],
-      "note": "American spelling listed first; alternate is British (*)"
+      "note": "American spelling listed first; alternate is British (*)",
+      "part_of_speech": "verb",
+      "definition": "to suddenly appear or become real",
+      "sentence": "Our plans for a trip did not materialize."
     },
     {
       "id": 265,
@@ -3486,7 +4279,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a light, silvery metal element",
+      "sentence": "Magnesium burns with a bright white flame."
     },
     {
       "id": 266,
@@ -3499,7 +4295,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the distance around the edge of a shape or area",
+      "sentence": "Find the perimeter of the rectangle."
     },
     {
       "id": 267,
@@ -3512,7 +4311,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an ocean fish often used for food",
+      "sentence": "We had haddock and chips for dinner."
     },
     {
       "id": 268,
@@ -3525,7 +4327,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a person who examines eyes and prescribes glasses",
+      "sentence": "The optometrist said I need glasses."
     },
     {
       "id": 269,
@@ -3538,7 +4343,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very careful about small details",
+      "sentence": "She is meticulous about keeping her desk neat."
     },
     {
       "id": 270,
@@ -3551,7 +4359,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a place, especially in Russia, where spacecraft are launched",
+      "sentence": "The rocket blasted off from the cosmodrome."
     },
     {
       "id": 271,
@@ -3564,7 +4375,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a dangerously low body temperature",
+      "sentence": "Wet clothes in the cold can cause hypothermia."
     },
     {
       "id": 272,
@@ -3577,7 +4391,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a dog breed with a beard and bushy eyebrows",
+      "sentence": "Our neighbor's schnauzer barks at the mail carrier."
     },
     {
       "id": 273,
@@ -3590,7 +4407,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a unit for measuring how fast waves vibrate, equal to one million cycles per second",
+      "sentence": "The radio station broadcasts at 98.1 megahertz."
     },
     {
       "id": 274,
@@ -3603,7 +4423,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the loose rock and dust covering solid rock, as on the moon",
+      "sentence": "Astronauts left footprints in the moon's regolith."
     },
     {
       "id": 275,
@@ -3616,7 +4439,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a disease that makes joints swollen and painful",
+      "sentence": "Grandma's arthritis makes her knees stiff."
     },
     {
       "id": 276,
@@ -3629,7 +4455,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very fussy about small details",
+      "sentence": "My persnickety cat only eats one brand of food."
     },
     {
       "id": 277,
@@ -3642,7 +4471,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a violent uprising against a government",
+      "sentence": "The soldiers stopped the insurrection."
     },
     {
       "id": 278,
@@ -3655,7 +4487,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "large birds with long tails, often brightly colored",
+      "sentence": "We saw two pheasants in the field."
     },
     {
       "id": 279,
@@ -3668,7 +4503,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "athletes who compete in five different events",
+      "sentence": "The pentathletes ran, swam, fenced, rode horses, and shot."
     },
     {
       "id": 280,
@@ -3683,7 +4521,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a country on the west coast of Africa",
+      "sentence": "Senegal's capital city is Dakar."
     },
     {
       "id": 281,
@@ -3696,7 +4537,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a harsh system of government led by a dictator who allows no opposition",
+      "sentence": "Many countries fought against fascism in World War II."
     },
     {
       "id": 282,
@@ -3709,7 +4553,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a strong, magical feeling of emotion in art or music, from a Spanish word",
+      "sentence": "The flamenco dancer performed with great duende."
     },
     {
       "id": 283,
@@ -3722,7 +4569,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a person who held a job or position before someone else",
+      "sentence": "The new principal thanked her predecessor."
     },
     {
       "id": 284,
@@ -3737,7 +4587,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a camera that prints photos instantly, or a photo from one",
+      "sentence": "We took a Polaroid at the party."
     },
     {
       "id": 285,
@@ -3750,7 +4603,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a lake where water is stored for use",
+      "sentence": "Our town gets its water from a reservoir."
     },
     {
       "id": 286,
@@ -3763,7 +4619,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "tracing family from mother to child",
+      "sentence": "Some cultures follow matrilineal family lines."
     },
     {
       "id": 287,
@@ -3776,7 +4635,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "awake and aware",
+      "sentence": "After the fall, he was still conscious."
     },
     {
       "id": 288,
@@ -3789,7 +4651,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a plant used in creams for bruises",
+      "sentence": "Mom put arnica cream on my bruise."
     },
     {
       "id": 289,
@@ -3802,7 +4667,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the flesh of dead animals",
+      "sentence": "Vultures eat carrion."
     },
     {
       "id": 290,
@@ -3815,7 +4683,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an eye disease that can damage vision",
+      "sentence": "The eye doctor tested Grandpa for glaucoma."
     },
     {
       "id": 291,
@@ -3828,7 +4699,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "in a way that makes people feel pity",
+      "sentence": "The lost kitten meowed piteously."
     },
     {
       "id": 292,
@@ -3841,7 +4715,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a hormone that gives your body a burst of energy when excited or scared",
+      "sentence": "Riding the roller coaster gave me a rush of adrenaline."
     },
     {
       "id": 293,
@@ -3854,7 +4731,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "shaped like an oval",
+      "sentence": "The earth travels in an elliptical orbit."
     },
     {
       "id": 294,
@@ -3867,7 +4747,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "played or spoken in short, separate sounds",
+      "sentence": "The piano piece had staccato notes."
     },
     {
       "id": 295,
@@ -3880,7 +4763,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a very hard, silvery metal element",
+      "sentence": "Iridium is one of the rarest metals on earth."
     },
     {
       "id": 296,
@@ -3893,7 +4779,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a weedy plant with small white and yellow flowers, also called Spanish needles",
+      "sentence": "Bees buzzed around the romerillo flowers."
     },
     {
       "id": 297,
@@ -3906,7 +4795,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a place where dead people are buried",
+      "sentence": "We put flowers on graves at the cemetery."
     },
     {
       "id": 298,
@@ -3919,7 +4811,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a dog with a long body and short legs",
+      "sentence": "The dachshund waddled down the sidewalk."
     },
     {
       "id": 299,
@@ -3932,7 +4827,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a planned meeting at a certain time and place",
+      "sentence": "Our rendezvous point is the big oak tree."
     },
     {
       "id": 300,
@@ -3947,7 +4845,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the keeper of the winds in Greek myths",
+      "sentence": "In Greek myths, Aeolus kept the winds in a bag."
     },
     {
       "id": 301,
@@ -3960,7 +4861,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small salamander that lives on land and in water",
+      "sentence": "We found a newt under a wet log."
     },
     {
       "id": 302,
@@ -3973,7 +4877,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "made a steady humming or strumming sound",
+      "sentence": "The rain thrummed on the tin roof."
     },
     {
       "id": 303,
@@ -3986,7 +4893,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "containers in which incense is burned",
+      "sentence": "The censers filled the hall with sweet smoke."
     },
     {
       "id": 304,
@@ -3999,7 +4909,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the folded parts on the front of a coat or jacket below the collar",
+      "sentence": "He pinned a flower to one of his lapels."
     },
     {
       "id": 305,
@@ -4012,7 +4925,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "being willing to give and share",
+      "sentence": "We thanked her for her generosity."
     },
     {
       "id": 306,
@@ -4025,7 +4941,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "polished until shiny",
+      "sentence": "The burnished trophy gleamed in the case."
     },
     {
       "id": 307,
@@ -4038,7 +4957,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a raised bank of earth or stone along a river or road",
+      "sentence": "We walked along the river embankment."
     },
     {
       "id": 308,
@@ -4051,7 +4973,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not stopping or easing up",
+      "sentence": "The unrelenting rain lasted all week."
     },
     {
       "id": 309,
@@ -4064,7 +4989,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "rolling around in mud or water; or staying in a sad feeling",
+      "sentence": "The pigs were wallowing in the mud."
     },
     {
       "id": 310,
@@ -4077,7 +5005,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having to do with an empire or an emperor",
+      "sentence": "The imperial palace was huge."
     },
     {
       "id": 311,
@@ -4090,7 +5021,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a paste that holds bricks together; or a bowl for grinding",
+      "sentence": "The builder spread mortar between the bricks."
     },
     {
       "id": 312,
@@ -4103,7 +5037,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "people who set fire to property on purpose",
+      "sentence": "The police caught the arsonists."
     },
     {
       "id": 313,
@@ -4116,7 +5053,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "crying weakly, like a kitten",
+      "sentence": "We heard a kitten mewling under the porch."
     },
     {
       "id": 314,
@@ -4129,7 +5069,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a machine that makes electricity",
+      "sentence": "We used a generator when the power went out."
     },
     {
       "id": 315,
@@ -4142,7 +5085,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "continuing firmly and not giving up",
+      "sentence": "The persistent puppy kept asking for treats."
     },
     {
       "id": 316,
@@ -4155,7 +5101,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the power to make decisions or give orders",
+      "sentence": "The principal has the authority to close the school."
     },
     {
       "id": 317,
@@ -4168,7 +5117,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "showing a wide view of a whole area",
+      "sentence": "The tower has a panoramic view of the city."
     },
     {
       "id": 318,
@@ -4183,7 +5135,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a large, sleek dog breed often used as a guard dog",
+      "sentence": "The Doberman guarded the gate."
     },
     {
       "id": 319,
@@ -4196,7 +5151,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "control or rule over something; a territory ruled by someone",
+      "sentence": "The king had dominion over the land."
     },
     {
       "id": 320,
@@ -4209,7 +5167,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "quickly and firmly, without doubt",
+      "sentence": "She decisively chose the red bike."
     },
     {
       "id": 321,
@@ -4222,7 +5183,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "long, thick gloves that protect the hands and wrists",
+      "sentence": "The knight wore metal gauntlets."
     },
     {
       "id": 322,
@@ -4235,7 +5199,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not alive",
+      "sentence": "A rock is an inanimate object."
     },
     {
       "id": 323,
@@ -4248,7 +5215,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "small, furry arctic rodents",
+      "sentence": "Lemmings live in burrows under the snow."
     },
     {
       "id": 324,
@@ -4261,7 +5231,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having to do with hearing",
+      "sentence": "Music is an auditory experience."
     },
     {
       "id": 325,
@@ -4274,7 +5247,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "looking or smelling good to eat",
+      "sentence": "The bread smelled very appetizing."
     },
     {
       "id": 326,
@@ -4287,7 +5263,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "guards who keep watch",
+      "sentence": "Sentinels stood at the castle gate."
     },
     {
       "id": 327,
@@ -4300,7 +5279,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "how often something happens; or the rate of a wave",
+      "sentence": "The frequency of storms increases in the spring."
     },
     {
       "id": 328,
@@ -4315,7 +5297,10 @@
       "tags": [
         "hyphenated"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "able to take care of yourself without help",
+      "sentence": "The farm family was self-sufficient and grew their own food."
     },
     {
       "id": 329,
@@ -4328,7 +5313,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "likely to happen or become something in the future",
+      "sentence": "The prospective students toured the school."
     },
     {
       "id": 330,
@@ -4341,7 +5329,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an agreement to receive something regularly by paying for it",
+      "sentence": "I have a subscription to a science magazine."
     },
     {
       "id": 331,
@@ -4354,7 +5345,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "in a cheerful, carefree way",
+      "sentence": "He blithely skipped down the street."
     },
     {
       "id": 332,
@@ -4367,7 +5361,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very easy to see or notice",
+      "sentence": "His bright orange hat was conspicuous in the crowd."
     },
     {
       "id": 333,
@@ -4380,7 +5377,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an idea formed before having real knowledge",
+      "sentence": "She had a preconception that math would be hard."
     },
     {
       "id": 334,
@@ -4393,7 +5393,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a group of people moving forward in an orderly line",
+      "sentence": "The wedding procession walked down the aisle."
     },
     {
       "id": 335,
@@ -4406,7 +5409,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very weak or thin",
+      "sentence": "The kite was held by a tenuous string."
     },
     {
       "id": 336,
@@ -4419,7 +5425,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "meeting at a right angle",
+      "sentence": "The two streets are perpendicular to each other."
     },
     {
       "id": 337,
@@ -4432,7 +5441,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "half of a sphere, especially half of the earth",
+      "sentence": "The United States is in the Northern Hemisphere."
     },
     {
       "id": 338,
@@ -4445,7 +5457,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very important and influential for later work",
+      "sentence": "Her seminal book changed how scientists studied birds."
     },
     {
       "id": 339,
@@ -4458,7 +5473,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a curved brass musical instrument played by blowing",
+      "sentence": "My brother plays the saxophone in the band."
     },
     {
       "id": 340,
@@ -4471,7 +5489,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "falling very heavily and fast, like rain",
+      "sentence": "Torrential rain flooded the streets."
     },
     {
       "id": 341,
@@ -4484,7 +5505,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "being unwilling or hesitant",
+      "sentence": "He showed reluctance to jump into the cold pool."
     },
     {
       "id": 342,
@@ -4497,7 +5521,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an office where a country's official helps its citizens in a foreign city",
+      "sentence": "We got our passports at the Korean consulate."
     },
     {
       "id": 343,
@@ -4510,7 +5537,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a horse's smooth pace that is faster than a trot but slower than a gallop",
+      "sentence": "The horse moved at an easy canter."
     },
     {
       "id": 344,
@@ -4523,7 +5553,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "walked in a slow, relaxed way",
+      "sentence": "He sauntered into the room as if he had all day."
     },
     {
       "id": 345,
@@ -4536,7 +5569,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "spinning blades that move a boat or plane",
+      "sentence": "The plane's propeller began to spin."
     },
     {
       "id": 346,
@@ -4549,7 +5585,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "fashionable; in style",
+      "sentence": "She wore a modish hat to the party."
     },
     {
       "id": 347,
@@ -4562,7 +5601,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a style of cooking",
+      "sentence": "Korean cuisine is famous for kimchi."
     },
     {
       "id": 348,
@@ -4575,7 +5617,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an evergreen shrub with small blue berries",
+      "sentence": "The juniper bushes smelled fresh after the rain."
     },
     {
       "id": 349,
@@ -4588,7 +5633,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small sofa for two or three people",
+      "sentence": "Grandma sat on the settee by the window."
     },
     {
       "id": 350,
@@ -4601,7 +5649,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not awake or aware",
+      "sentence": "The player was knocked unconscious for a moment."
     },
     {
       "id": 351,
@@ -4614,7 +5665,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a contagious illness, also called the flu",
+      "sentence": "Many students were absent with influenza."
     },
     {
       "id": 352,
@@ -4627,7 +5681,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a large, grand building or palace in Italy",
+      "sentence": "The museum is inside an old palazzo."
     },
     {
       "id": 353,
@@ -4640,7 +5697,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "skill and gracefulness in doing something",
+      "sentence": "She handled the tricky question with finesse."
     },
     {
       "id": 354,
@@ -4653,7 +5713,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the leaves of plants and trees",
+      "sentence": "The fall foliage was red and gold."
     },
     {
       "id": 355,
@@ -4674,7 +5737,10 @@
       "tags": [
         "has_alternate_spelling"
       ],
-      "note": "American spelling listed first; alternate is British (*)"
+      "note": "American spelling listed first; alternate is British (*)",
+      "part_of_speech": "noun",
+      "definition": "a substance that gives off a smell",
+      "sentence": "An odorant is added to gas so we can smell a leak."
     },
     {
       "id": 356,
@@ -4687,7 +5753,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not related to the subject",
+      "sentence": "That question is irrelevant to our lesson."
     },
     {
       "id": 357,
@@ -4700,7 +5769,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the subjects taught in a school or course",
+      "sentence": "Coding is part of our school's curriculum."
     },
     {
       "id": 358,
@@ -4713,7 +5785,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "in a puzzled or questioning way",
+      "sentence": "The dog tilted its head quizzically."
     },
     {
       "id": 359,
@@ -4726,7 +5801,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "in a polite and careful way that avoids offending people",
+      "sentence": "She diplomatically settled the argument."
     },
     {
       "id": 360,
@@ -4739,7 +5817,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "mysterious and hard to understand",
+      "sentence": "The painting has an enigmatic smile."
     },
     {
       "id": 361,
@@ -4752,7 +5833,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "small steps or amounts by which something increases",
+      "sentence": "The ruler is marked in increments of one inch."
     },
     {
       "id": 362,
@@ -4765,7 +5849,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "made with yarn and a hooked needle",
+      "sentence": "Grandma crocheted a blanket for the baby."
     },
     {
       "id": 363,
@@ -4778,7 +5865,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to adjust a tool so it measures correctly",
+      "sentence": "Scientists calibrate the scale before weighing."
     },
     {
       "id": 364,
@@ -4791,7 +5881,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an idea that can be tested in an experiment",
+      "sentence": "Our hypothesis is that plants grow faster in sunlight."
     },
     {
       "id": 365,
@@ -4804,7 +5897,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "words or actions that remove fear or doubt",
+      "sentence": "The coach gave the nervous player reassurance."
     },
     {
       "id": 366,
@@ -4817,7 +5913,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "showing that you are sorry",
+      "sentence": "He gave an apologetic smile after bumping into me."
     },
     {
       "id": 367,
@@ -4830,7 +5929,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a low cabinet or sideboard",
+      "sentence": "The printer sits on the credenza in the office."
     },
     {
       "id": 368,
@@ -4843,7 +5945,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "able to be understood",
+      "sentence": "The teacher made the hard lesson comprehensible."
     },
     {
       "id": 369,
@@ -4856,7 +5961,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a country controlled and protected by a stronger country",
+      "sentence": "The island was once a protectorate of another nation."
     },
     {
       "id": 370,
@@ -4871,7 +5979,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small state on the east coast of the United States",
+      "sentence": "Delaware was the first state to approve the Constitution."
     },
     {
       "id": 371,
@@ -4884,7 +5995,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an unusual fact or event that can be observed",
+      "sentence": "A rainbow is a beautiful natural phenomenon."
     },
     {
       "id": 372,
@@ -4897,7 +6011,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "sharp, clear, and forceful",
+      "sentence": "The writer gave a trenchant review of the movie."
     },
     {
       "id": 373,
@@ -4910,7 +6027,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having to do with the lungs",
+      "sentence": "A pulmonary doctor treats lung problems."
     },
     {
       "id": 374,
@@ -4923,7 +6043,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "moving or shaped in smooth waves",
+      "sentence": "We drove over undulating hills."
     },
     {
       "id": 375,
@@ -4936,7 +6059,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to make pain or a problem less severe",
+      "sentence": "Ice can alleviate the swelling."
     },
     {
       "id": 376,
@@ -4949,7 +6075,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "very sad and without hope",
+      "sentence": "He was despondent after losing his dog."
     },
     {
       "id": 377,
@@ -4962,7 +6091,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a close but not exact amount or idea",
+      "sentence": "Ten minutes is an approximation of the walk."
     },
     {
       "id": 378,
@@ -4975,7 +6107,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "like a ghost or a dream; not real",
+      "sentence": "Phantasmal shapes seemed to float in the fog."
     },
     {
       "id": 379,
@@ -4988,7 +6123,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a diplomatic office or group in a foreign country, smaller than an embassy",
+      "sentence": "The legation sent a message to the king."
     },
     {
       "id": 380,
@@ -5001,7 +6139,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "finding objects by sending out sounds and listening for echoes",
+      "sentence": "Bats use echolocation to catch insects."
     },
     {
       "id": 381,
@@ -5022,7 +6163,10 @@
       "tags": [
         "has_alternate_spelling"
       ],
-      "note": "preferred spelling (**) listed first"
+      "note": "preferred spelling (**) listed first",
+      "part_of_speech": "noun",
+      "definition": "a clear, thick, sweet liquid used in soaps and lotions",
+      "sentence": "The soap contains glycerin to keep skin soft."
     },
     {
       "id": 382,
@@ -5043,7 +6187,10 @@
       "tags": [
         "has_alternate_spelling"
       ],
-      "note": "preferred spelling (**) listed first"
+      "note": "preferred spelling (**) listed first",
+      "part_of_speech": "noun",
+      "definition": "a metal pan or stand that holds burning coals",
+      "sentence": "We warmed our hands over the brazier."
     },
     {
       "id": 383,
@@ -5056,7 +6203,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "shyness and lack of self-confidence",
+      "sentence": "Her diffidence made her speak very quietly."
     },
     {
       "id": 384,
@@ -5069,7 +6219,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a huge, destructive fire",
+      "sentence": "The conflagration burned the whole forest."
     },
     {
       "id": 385,
@@ -5082,7 +6235,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a smooth, white stone used for carving",
+      "sentence": "The statue was carved from alabaster."
     },
     {
       "id": 386,
@@ -5095,7 +6251,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an animal with eight legs, such as a spider or scorpion",
+      "sentence": "A scorpion is an arachnid."
     },
     {
       "id": 387,
@@ -5108,7 +6267,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a gas used as fuel in lighters and camping stoves",
+      "sentence": "The camping stove burns butane."
     },
     {
       "id": 388,
@@ -5121,7 +6283,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "movement of a living thing toward or away from heat",
+      "sentence": "Some tiny worms show thermotaxis and crawl toward warmth."
     },
     {
       "id": 389,
@@ -5134,7 +6299,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a leafy green with a peppery taste",
+      "sentence": "The salad had arugula and tomatoes."
     },
     {
       "id": 390,
@@ -5147,7 +6315,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "in a way caused by disease; or to an extreme, uncontrollable degree",
+      "sentence": "The character in the book was pathologically shy."
     },
     {
       "id": 391,
@@ -5160,7 +6331,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a cloudy area in the lens of the eye; or a large waterfall",
+      "sentence": "The doctor removed the cataract from her eye."
     },
     {
       "id": 392,
@@ -5173,7 +6347,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "verb",
+      "definition": "to begin something officially, or to place someone in office with a ceremony",
+      "sentence": "The city will inaugurate the new bridge tomorrow."
     },
     {
       "id": 393,
@@ -5186,7 +6363,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an instrument that measures vibration",
+      "sentence": "Engineers used a vibrometer to test the bridge."
     },
     {
       "id": 394,
@@ -5199,7 +6379,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "natural likings or connections",
+      "sentence": "The twins have affinities for music and art."
     },
     {
       "id": 395,
@@ -5212,7 +6395,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a baked pie filled with eggs, cheese, and other ingredients",
+      "sentence": "We had spinach quiche for brunch."
     },
     {
       "id": 396,
@@ -5225,7 +6411,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "light made by living things",
+      "sentence": "Fireflies glow because of bioluminescence."
     },
     {
       "id": 397,
@@ -5238,7 +6427,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a creamy sauce made from eggs and oil",
+      "sentence": "I put mayonnaise on my sandwich."
     },
     {
       "id": 398,
@@ -5251,7 +6443,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a perfect example of an idea or quality",
+      "sentence": "The firefighter is the embodiment of courage."
     },
     {
       "id": 399,
@@ -5264,7 +6459,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a gentle word used in place of one that might sound harsh",
+      "sentence": "Passed away is a euphemism for died."
     },
     {
       "id": 400,
@@ -5277,7 +6475,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small songbird with a black cap",
+      "sentence": "A chickadee landed on our bird feeder."
     },
     {
       "id": 401,
@@ -5290,7 +6491,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "mucus coughed up from the lungs",
+      "sentence": "The doctor tested a sample of sputum."
     },
     {
       "id": 402,
@@ -5303,7 +6507,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "small sea mammals related to dolphins",
+      "sentence": "Porpoises swam beside our boat."
     },
     {
       "id": 403,
@@ -5316,7 +6523,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a helper in a religious service; or a devoted follower",
+      "sentence": "The acolyte lit the candles."
     },
     {
       "id": 404,
@@ -5329,7 +6539,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "not the same on both sides",
+      "sentence": "The building has an asymmetric roof."
     },
     {
       "id": 405,
@@ -5342,7 +6555,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "a deep, clear sky-blue color",
+      "sentence": "The sea was a bright cerulean blue."
     },
     {
       "id": 406,
@@ -5355,7 +6571,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having to do with the mind and feelings",
+      "sentence": "Stress can have psychological effects."
     },
     {
       "id": 407,
@@ -5368,7 +6587,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "harmless; not likely to upset anyone",
+      "sentence": "It was an innocuous question."
     },
     {
       "id": 408,
@@ -5381,7 +6603,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a Chinese dog breed with deep wrinkles and a blue-black tongue",
+      "sentence": "The sharpei puppy had wrinkles all over its face."
     },
     {
       "id": 409,
@@ -5396,7 +6621,10 @@
       "tags": [
         "hyphenated"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a street closed at one end, often with a circle to turn around",
+      "sentence": "We live on a quiet cul-de-sac."
     },
     {
       "id": 410,
@@ -5409,7 +6637,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a collection or gathering of things or people",
+      "sentence": "The museum shows an assemblage of old tools."
     },
     {
       "id": 411,
@@ -5424,7 +6655,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the capital city of Libya, in North Africa",
+      "sentence": "Tripoli lies on the Mediterranean Sea."
     },
     {
       "id": 412,
@@ -5437,7 +6671,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the ability to keep the body warm from the inside, as in birds and mammals",
+      "sentence": "Endothermy lets mammals stay active in cold weather."
     },
     {
       "id": 413,
@@ -5450,7 +6687,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "minerals in the body, like salt, that help muscles and nerves work",
+      "sentence": "Sports drinks replace electrolytes lost in sweat."
     },
     {
       "id": 414,
@@ -5463,7 +6703,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a long-lasting infectious disease that affects the skin and nerves",
+      "sentence": "Today leprosy can be cured with medicine."
     },
     {
       "id": 415,
@@ -5476,7 +6719,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "having to do with the brain and nerves",
+      "sentence": "The doctor ran neurological tests."
     },
     {
       "id": 416,
@@ -5491,7 +6737,10 @@
       "tags": [
         "diacritic"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a long pastry filled with cream and topped with chocolate",
+      "sentence": "I bought a chocolate éclair at the bakery."
     },
     {
       "id": 417,
@@ -5504,7 +6753,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "harmful to the ears or hearing",
+      "sentence": "Some medicines can be ototoxic."
     },
     {
       "id": 418,
@@ -5517,7 +6769,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "interjection",
+      "definition": "a cry of joy when you discover something",
+      "sentence": "Eureka! I found my missing shoe!"
     },
     {
       "id": 419,
@@ -5530,7 +6785,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "baleen whales, which filter food instead of using teeth",
+      "sentence": "Blue whales and humpbacks are mysticetes."
     },
     {
       "id": 420,
@@ -5543,7 +6801,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a tendency to get angry easily",
+      "sentence": "The old man's irascibility scared the children."
     },
     {
       "id": 421,
@@ -5558,7 +6819,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the Greek goddess of love and beauty",
+      "sentence": "Aphrodite is a goddess in Greek myths."
     },
     {
       "id": 422,
@@ -5571,7 +6835,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "worms with bodies made of rings or segments, like earthworms",
+      "sentence": "Earthworms and leeches are annelids."
     },
     {
       "id": 423,
@@ -5586,7 +6853,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a country in East Africa on the Red Sea",
+      "sentence": "Eritrea is next to Ethiopia."
     },
     {
       "id": 424,
@@ -5601,7 +6871,10 @@
       "tags": [
         "multi_word"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adverb",
+      "definition": "singing without musical instruments",
+      "sentence": "The choir sang a cappella."
     },
     {
       "id": 425,
@@ -5616,7 +6889,10 @@
       "tags": [
         "multi_word"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an Australian moth that travels long distances to spend summer in mountain caves",
+      "sentence": "The bogong moth flies hundreds of miles to cool caves."
     },
     {
       "id": 426,
@@ -5637,7 +6913,10 @@
       "tags": [
         "has_alternate_spelling"
       ],
-      "note": "preferred spelling (**) listed first"
+      "note": "preferred spelling (**) listed first",
+      "part_of_speech": "noun",
+      "definition": "an oil burned as fuel in lamps and heaters",
+      "sentence": "The old lantern burns kerosene."
     },
     {
       "id": 427,
@@ -5650,7 +6929,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a shrub with bright yellow flowers in early spring",
+      "sentence": "The forsythia bloomed bright yellow in March."
     },
     {
       "id": 428,
@@ -5665,7 +6947,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the main working language of Ethiopia",
+      "sentence": "My friend's family speaks Amharic at home."
     },
     {
       "id": 429,
@@ -5678,7 +6963,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "members of organized crime groups in Japan",
+      "sentence": "The movie was about police chasing the yakuza."
     },
     {
       "id": 430,
@@ -5693,7 +6981,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a state in the northeastern United States",
+      "sentence": "Philadelphia is a city in Pennsylvania."
     },
     {
       "id": 431,
@@ -5708,7 +6999,10 @@
       "tags": [
         "multi_word"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a chemical used in skin medicine and to make aspirin",
+      "sentence": "The acne cream contains salicylic acid."
     },
     {
       "id": 432,
@@ -5723,7 +7017,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a city in England, and also a fishing town in Massachusetts",
+      "sentence": "Gloucester has a famous old cathedral."
     },
     {
       "id": 433,
@@ -5736,7 +7033,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "tiny sense organs, often hair-like, on insects",
+      "sentence": "An ant smells with sensilla on its antennae."
     },
     {
       "id": 434,
@@ -5749,7 +7049,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a small round bottle with a narrow neck",
+      "sentence": "The ancient ampulla held perfumed oil."
     },
     {
       "id": 435,
@@ -5762,7 +7065,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "mantis shrimps, sea creatures with powerful punching claws",
+      "sentence": "Stomatopods can punch hard enough to crack shells."
     },
     {
       "id": 436,
@@ -5775,7 +7081,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "thin slices of salty Italian ham",
+      "sentence": "The pizza was topped with prosciutto."
     },
     {
       "id": 437,
@@ -5788,7 +7097,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "named after a particular person",
+      "sentence": "Peter Pan is the eponymous hero of the story Peter Pan."
     },
     {
       "id": 438,
@@ -5801,7 +7113,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a rare, venomous mammal like a large shrew, found on Caribbean islands",
+      "sentence": "The solenodon has a long, bendy snout."
     },
     {
       "id": 439,
@@ -5814,7 +7129,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a sweet-smelling tree resin burned as incense",
+      "sentence": "The wise men brought gold, frankincense, and myrrh."
     },
     {
       "id": 440,
@@ -5827,7 +7145,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "made of chitin, the hard material in insect and crab shells",
+      "sentence": "A beetle has a chitinous shell."
     },
     {
       "id": 441,
@@ -5842,7 +7163,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "adjective",
+      "definition": "belonging to a Protestant Christian church governed by elders",
+      "sentence": "They attend a Presbyterian church."
     },
     {
       "id": 442,
@@ -5858,7 +7182,10 @@
         "capitalized",
         "multi_word"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a country on the west coast of Africa",
+      "sentence": "Freetown is the capital of Sierra Leone."
     },
     {
       "id": 443,
@@ -5871,7 +7198,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "fine sensing hairs on spiders that feel tiny air movements",
+      "sentence": "Spiders use trichobothria to sense flying insects."
     },
     {
       "id": 444,
@@ -5886,7 +7216,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "an English-based language spoken widely in Sierra Leone",
+      "sentence": "Many people in Sierra Leone speak Krio."
     },
     {
       "id": 445,
@@ -5899,7 +7232,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a helpful bacterium found in yogurt",
+      "sentence": "Yogurt contains lactobacillus."
     },
     {
       "id": 446,
@@ -5914,7 +7250,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a novel about a young person growing up",
+      "sentence": "The book is a Bildungsroman about a boy becoming a man."
     },
     {
       "id": 447,
@@ -5929,7 +7268,10 @@
       "tags": [
         "capitalized"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a region in Turkey famous for rock towers and hot-air balloons",
+      "sentence": "We saw hot-air balloons over Cappadocia."
     },
     {
       "id": 448,
@@ -5945,7 +7287,10 @@
         "capitalized",
         "multi_word"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "the capital city of Ethiopia",
+      "sentence": "Addis Ababa is high in the mountains."
     },
     {
       "id": 449,
@@ -5960,7 +7305,10 @@
       "tags": [
         "multi_word"
       ],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "a Latin phrase for the strange hopeful mood once seen in people sick with tuberculosis",
+      "sentence": "The doctor described spes phthisica in the old patient."
     },
     {
       "id": 450,
@@ -5973,7 +7321,10 @@
       ],
       "alternates": [],
       "tags": [],
-      "note": ""
+      "note": "",
+      "part_of_speech": "noun",
+      "definition": "whiskers, the stiff hairs on an animal's face",
+      "sentence": "A cat uses its vibrissae to feel its way in the dark."
     }
   ]
 }

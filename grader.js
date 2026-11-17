@@ -72,17 +72,24 @@ export function parseTranscript(transcript, targetWord) {
     stripEdge(true); stripEdge(false);
   }
 
-  let letters = '', display = [], unknown = [];
-  for (const tok of tokens) {
-    if (LETTER_NAMES[tok]) { letters += LETTER_NAMES[tok]; display.push(LETTER_NAMES[tok].toUpperCase()); }
-    else if (SEPARATORS[tok]) { display.push(tok === 'space' ? '␣' : '-'); }
-    else if (/^[a-z]$/.test(tok)) { letters += tok; display.push(tok.toUpperCase()); }
+  const kind = (tok) => (LETTER_NAMES[tok] || /^[a-z]$/.test(tok)) ? 'letter' : SEPARATORS[tok] ? 'sep' : 'word';
+  const kinds = tokens.map(kind);
+  const first = kinds.indexOf('letter'), last = kinds.lastIndexOf('letter');
+
+  let letters = '', display = [], unknown = [], edgeWords = [];
+  tokens.forEach((tok, i) => {
+    const k = kinds[i];
+    if (k === 'letter') { const L = LETTER_NAMES[tok] || tok; letters += L; display.push(L.toUpperCase()); }
+    else if (k === 'sep') { if (i > first && i < last) display.push(tok === 'space' ? '␣' : '-'); }
+    // Words before the first letter or after the last letter are the child saying the word
+    // ("S O U R C E, source") — even if the recognizer misheard it ("sauce"), it is not graded.
+    else if (first !== -1 && (i < first || i > last)) edgeWords.push(tok);
     else unknown.push(tok);
-  }
-  // If the recognizer produced an ordinary multi-letter word (e.g. "beach"), we cannot
-  // know which letters the child actually said.
-  const wholeWord = unknown.some((u) => u.length > 1);
-  return { letters, display: display.join(' '), unknown, wholeWord };
+  });
+  // No letters at all, only an ordinary word (e.g. "beach"): the recognizer probably auto-corrected
+  // the spelling, so we cannot know which letters the child actually said.
+  const wholeWord = letters.length === 0 && unknown.some((u) => u.length > 1);
+  return { letters, display: display.join(' '), unknown, edgeWords, wholeWord };
 }
 
 // Grade a letter string against an entry's accepted spellings.

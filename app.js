@@ -144,7 +144,7 @@ function nextQuestion() {
   const w = pickNext();
   if (!w) { toast('Notebook is empty — great job! 🎉'); return renderHome(); }
   quiz.word = w; quiz.asked.add(w.id); quiz.count++;
-  quiz.q = { replays: 0, startedAt: 0, answeredAt: 0, transcript: '', parsed: null, result: null,
+  quiz.q = { clue: '', replays: 0, startedAt: 0, answeredAt: 0, transcript: '', parsed: null, result: null,
     override: null, hard: false, method: null };
   renderQuestion();
   say(`Spell ${w.word}`).then(() => { quiz.q.startedAt = Date.now(); });
@@ -160,12 +160,39 @@ function renderQuestion() {
       <span>#${quiz.count} · ✅ ${quiz.right}</span>
     </div>
     <section class="card center">
-      <button class="hear" id="hearBtn">🔊 Hear the word</button>
-      <p class="muted small">Say the word, spell it letter by letter, then say the word again.</p>
+      <div class="helpers">
+        <button class="hear" id="repeatBtn">🔁 Repeat</button>
+        <button class="hear" id="defBtn">📖 Meaning</button>
+        <button class="hear" id="sentBtn">💬 Sentence</button>
+      </div>
+      <div class="clue" id="clue">${q.clue || ''}</div>
+      <p class="muted small">Spell it letter by letter, then say the word.<br>Example: “S – O – U – R – C – E, source”</p>
       <div id="answerArea"></div>
     </section>`;
-  document.getElementById('hearBtn').onclick = () => { q.replays++; say(w.word); };
+  bindHelpers(false);
   renderAnswerArea();
+}
+
+
+// 🔁 Repeat / 📖 Meaning / 💬 Sentence — usable before and after answering.
+// Before answering, the word is hidden in the sentence text so the screen doesn't give away the spelling.
+const maskWord = (sentence, word) => {
+  const re = new RegExp(word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/\s+/g, '\\s+'), 'ig');
+  return sentence.replace(re, '_____');
+};
+function bindHelpers(revealed) {
+  const w = quiz.word, q = quiz.q;
+  const setClue = (html) => { q.clue = html; const el = document.getElementById('clue'); if (el) el.innerHTML = html; };
+  document.getElementById('repeatBtn').onclick = () => { if (!q.result) q.replays++; say(`Spell ${w.word}`); };
+  document.getElementById('defBtn').onclick = () => {
+    setClue(`<b>${esc(w.part_of_speech || '')}</b> — ${esc(w.definition || 'No definition yet.')}`);
+    say(`${w.part_of_speech ? w.part_of_speech + '. ' : ''}${w.definition || ''}`);
+  };
+  document.getElementById('sentBtn').onclick = () => {
+    const text = revealed ? w.sentence : maskWord(w.sentence || '', w.word);
+    setClue(`“${esc(text || 'No sentence yet.')}”`);
+    say(w.sentence || w.word);
+  };
 }
 
 function renderAnswerArea() {
@@ -180,6 +207,7 @@ function renderAnswerArea() {
       <div class="raw" id="rawHeard">${q.transcript ? 'raw: “' + esc(q.transcript) + '”' : ''}</div>
       ${q.parsed && !listening ? `
         ${q.parsed.wholeWord ? `<p class="warnmsg">I heard a whole word (“${esc(q.parsed.unknown.join(' '))}”), not letters.<br>Please spell it letter by letter.</p>` : ''}
+        ${!q.parsed.wholeWord && q.parsed.unknown.length ? `<p class="warnmsg">I didn’t understand: “${esc(q.parsed.unknown.join(' '))}”. Say it again, or check anyway.</p>` : ''}
         <div class="row">
           <button class="mid" id="againBtn">🔁 Say it again</button>
           ${q.parsed.letters && !q.parsed.wholeWord ? '<button class="mid primary" id="checkBtn">✓ Check</button>' : ''}
@@ -287,6 +315,10 @@ function renderResult(area) {
       ${w.accepted_spellings.length > 1 ? `<div><small>Also OK</small><b>${w.accepted_spellings.slice(1).map(esc).join(', ')}</b></div>` : ''}
       <div><small>You said</small><b class="spell ${res}">${esc(spelledOut(q.answer.toLowerCase()))}</b></div>
     </div>
+    <div class="learn">
+      <div><b>${esc(w.part_of_speech || '')}</b> — ${esc(w.definition || '')}</div>
+      <div class="muted">“${esc(w.sentence || '')}”</div>
+    </div>
     ${reasons.length ? `<p class="small muted">📒 Goes to notebook: ${esc(reasons.join(', '))}</p>` : ''}
     <div class="row">
       <button class="mid ${q.hard ? 'on' : ''}" id="hardBtn">😓 That was hard</button>
@@ -299,6 +331,8 @@ function renderResult(area) {
         <button class="small" data-ov="">Undo</button>
       </div>
     </details>`;
+  bindHelpers(true);
+  const clue = document.getElementById('clue'); if (clue) clue.innerHTML = '';
   document.getElementById('hardBtn').onclick = () => { q.hard = !q.hard; renderAnswerArea(); };
   document.getElementById('nextBtn').onclick = () => { commit(); nextQuestion(); };
   area.querySelectorAll('[data-ov]').forEach((b) => b.onclick = () => { q.override = b.dataset.ov || null; renderAnswerArea(); });
