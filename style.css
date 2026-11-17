@@ -93,3 +93,5 @@ table.grid { border-collapse: separate; border-spacing: 0; font-size: 14px; }
 .grid .tcol { position: sticky; right: 0; z-index: 1; background: #f4f4f4; font-weight: 700; border-left: 2px solid #ddd; }
 .grid thead .corner, .grid tfoot .corner { z-index: 3; background: #ffe9a3; }
 .grid td.ok { color: var(--ok); font-weight: 700; } .grid td.bad { color: var(--bad); font-weight: 700; background: #fff5f5; } .grid td.mix { color: #b7791f; font-weight: 700; }
+.fixrow { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; }
+.fix { padding: 16px 8px; font-size: 19px; font-weight: 700; background: #ffe9a3; }

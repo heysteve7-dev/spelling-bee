@@ -1,7 +1,7 @@
 import { parseTranscript, isCorrect, spelledOut } from './grader.js';
 import { store, dayKey } from './store.js';
 
-export const APP_VERSION = '1.3.0';
+export const APP_VERSION = '1.3.1';
 
 // ───────────────────────── settings (per device) ─────────────────────────
 const DEFAULTS = { v: 2, wordRate: 0.7, talkRate: 0.8, pauseMs: 700, spellVolume: 0.55, thinkSeconds: 8, graduateAfter: 2, voiceURI: '' };
@@ -210,7 +210,7 @@ function nextQuestion() {
   const w = pickNext();
   if (!w) { toast('No focus words left — great job! 🎉'); return renderHome(); }
   quiz.word = w; quiz.asked.add(w.id); quiz.recent.push(w.id); quiz.count++;
-  quiz.q = { showText: false, replays: 0, startedAt: Date.now(), answeredAt: 0, transcript: '', parsed: null, result: null,
+  quiz.q = { showText: false, replays: 0, startedAt: Date.now(), answeredAt: 0, baseLetters: '', session: null, transcriptAll: '', parsed: null, result: null,
     override: null, hard: false, method: null };
   renderQuestion();
   askWord(w.word).then(() => { if (quiz?.word === w && !quiz.q.answeredAt) quiz.q.startedAt = Date.now(); });
@@ -267,25 +267,27 @@ function renderAnswerArea() {
   const q = quiz.q, area = document.getElementById('answerArea');
   if (!area) return;
   if (q.result) return renderResult(area);
+  const has = !!q.parsed?.letters;
   area.innerHTML = `
     ${canListen ? `
-      <button class="mic ${listening ? 'live' : ''}" id="micBtn">${listening ? '⏹ Done' : '🎤 Tap and spell'}</button>
+      <button class="mic ${listening ? 'live' : ''}" id="micBtn">${listening ? '⏹ Done' : has ? '🎤 Keep spelling' : '🎤 Tap and spell'}</button>
       <div class="heard" id="heard">${q.parsed ? esc(q.parsed.display || '…') : (listening ? 'Listening…' : '&nbsp;')}</div>
+      <div class="fixrow" id="fixRow" ${has || listening ? '' : 'hidden'}>
+        <button class="fix" id="undoBtn">↩️ Undo letter</button>
+        <button class="fix" id="clearBtn">🗑 Start over</button>
+      </div>
       <div class="raw" id="micStatus">${listening ? esc(q.micStatus || '⏳ starting mic…') : (q.micStatus && q.micStatus.startsWith('⚠️') ? esc(q.micStatus) : '')}</div>
-      <div class="raw" id="rawHeard">${q.transcript ? 'raw: “' + esc(q.transcript) + '”' : ''}</div>
+      <div class="raw" id="rawHeard">${(q.session?.transcript || q.lastRaw) ? 'raw: “' + esc(q.session?.transcript || q.lastRaw) + '”' : ''}</div>
       ${q.parsed && !listening ? `
         ${q.parsed.wholeWord ? `<p class="warnmsg">I heard a whole word (“${esc(q.parsed.unknown.join(' '))}”), not letters.<br>Please spell it letter by letter.</p>` : ''}
-        ${!q.parsed.wholeWord && q.parsed.unknown.length ? `<p class="warnmsg">I didn’t understand: “${esc(q.parsed.unknown.join(' '))}”. Say it again, or check anyway.</p>` : ''}
-        <div class="row">
-          <button class="mid" id="againBtn">🔁 Say it again</button>
-          ${q.parsed.letters && !q.parsed.wholeWord ? '<button class="mid primary" id="checkBtn">✓ Check</button>' : ''}
-        </div>` : ''}
+        ${!q.parsed.wholeWord && q.parsed.unknown.length ? `<p class="warnmsg">I didn’t understand: “${esc(q.parsed.unknown.join(' '))}”. Undo, start over, or check anyway.</p>` : ''}
+        ${has && !q.parsed.wholeWord ? '<button class="big primary" id="checkBtn">✓ Check</button>' : ''}` : ''}
       <details class="typebox"><summary>⌨️ Type instead</summary>${typeForm()}</details>
     ` : typeForm()}`;
   const mic = document.getElementById('micBtn');
   if (mic) mic.onclick = () => (listening ? stopListening(true) : startListening());
-  const again = document.getElementById('againBtn');
-  if (again) again.onclick = () => { q.transcript = ''; q.parsed = null; startListening(); };
+  const undo = document.getElementById('undoBtn'); if (undo) undo.onclick = () => fixSpelling('undo');
+  const clear = document.getElementById('clearBtn'); if (clear) clear.onclick = () => fixSpelling('clear');
   const check = document.getElementById('checkBtn');
   if (check) check.onclick = () => grade(q.parsed.letters, 'voice');
   const form = document.getElementById('typeForm');
@@ -298,6 +300,41 @@ const typeForm = () => `
     <button class="mid primary">✓ Check</button>
   </form>`;
 
+// How voice answers are kept:
+//   q.baseLetters  = letters already confirmed from earlier mic sessions (after a pause, Undo, or Start over)
+//   q.session      = what the mic is hearing right now
+// Undo / Start over end the current mic session, fix the letters, and turn the mic back on,
+// so the child can just keep talking — no typing needed.
+function combine(q) {
+  const sp = q.session?.parsed;
+  const letters = (q.baseLetters || '') + (sp?.letters || '');
+  let unknown = sp?.unknown || [];
+  if (q.baseLetters) { // saying the word itself after spelling (in a new session) is fine
+    const target = quiz.word.word.toLowerCase();
+    unknown = unknown.filter((u) => !target.split(/[\s-]+/).includes(u));
+  }
+  q.parsed = { letters, display: letters.toUpperCase().split('').join(' '), unknown,
+    wholeWord: !letters && !!sp?.wholeWord };
+  return q.parsed;
+}
+function showLive(q) {
+  const h = document.getElementById('heard'); if (h) h.textContent = q.parsed?.display || (listening ? 'Listening…' : '');
+  const raw = document.getElementById('rawHeard'); if (raw) raw.textContent = q.session?.transcript ? 'raw: “' + q.session.transcript + '”' : '';
+  const fr = document.getElementById('fixRow'); if (fr) fr.hidden = !(q.parsed?.letters || listening);
+}
+function applyFix(q, action) {
+  if (action === 'undo') q.baseLetters = (q.baseLetters || '').slice(0, -1);
+  if (action === 'clear') q.baseLetters = '';
+  q.session = null; q.lastRaw = ''; combine(q);
+  if (!q.baseLetters) q.parsed = null;
+}
+function fixSpelling(action) {
+  const q = quiz.q;
+  if (listening && rec) { q.pending = action; try { rec.abort(); } catch { try { rec.stop(); } catch {} } return; }
+  applyFix(q, action);
+  startListening();
+}
+
 let rec = null, listening = false, userStopped = false;
 function startListening() {
   const q = quiz.q;
@@ -305,7 +342,8 @@ function startListening() {
   stopSpeaking();
   rec = new SR();
   rec.lang = 'en-US'; rec.continuous = true; rec.interimResults = true; rec.maxAlternatives = 1;
-  const base = q.transcript;   // keep what was said before a pause
+  q.session = { transcript: '', parsed: null };
+  q.pending = null;
   userStopped = false;
   const status = (msg) => { q.micStatus = msg; const el = document.getElementById('micStatus'); if (el) el.textContent = msg; };
   rec.onstart = () => status('🎙️ mic on — start spelling');
@@ -322,25 +360,35 @@ function startListening() {
       else if (last && last.toLowerCase().startsWith(tr.toLowerCase())) continue;
       else parts.push(tr);
     }
-    q.transcript = (base + ' ' + parts.join(' ')).trim();
-    q.parsed = parseTranscript(q.transcript, quiz.word.word);
-    const h = document.getElementById('heard'); if (h) h.textContent = q.parsed.display || '…';
-    const raw = document.getElementById('rawHeard'); if (raw) raw.textContent = 'raw: “' + q.transcript + '”';
+    if (!q.session) return;
+    q.session.transcript = parts.join(' ').trim();
+    q.session.parsed = parseTranscript(q.session.transcript, quiz.word.word);
+    combine(q); showLive(q);
     status('🗣️ got it — tap Done when finished');
   };
   rec.onerror = (e) => {
+    if (e.error === 'aborted') return;
     status('⚠️ mic error: ' + e.error);
     if (e.error === 'not-allowed' || e.error === 'service-not-allowed') toast('Mic or Siri & Dictation is off. See the setup tips.');
     else if (e.error === 'no-speech') toast('I didn’t hear anything. Speak a little louder and closer.');
-    else if (e.error !== 'aborted') toast('Mic error: ' + e.error);
+    else toast('Mic error: ' + e.error);
   };
   rec.onend = () => {
     listening = false; rec = null;
-    if (quiz?.q === q) {
-      if (q.transcript) q.parsed = parseTranscript(q.transcript, quiz.word.word);
-      if (userStopped && q.parsed?.letters && !q.parsed.wholeWord && !q.parsed.unknown.length) return grade(q.parsed.letters, 'voice');
-      renderAnswerArea();
-    }
+    if (quiz?.q !== q) return;
+    // keep what this session heard
+    if (q.session?.transcript) q.transcriptAll = ((q.transcriptAll || '') + ' | ' + q.session.transcript).replace(/^ \| /, '');
+    combine(q);
+    if (!q.parsed.wholeWord) q.baseLetters = q.parsed.letters;
+    // the session's letters now live in baseLetters; keep only its raw text for display
+    const sessWhole = q.parsed.wholeWord, sessUnknown = q.parsed.unknown;
+    q.lastRaw = q.session?.transcript || q.lastRaw || '';
+    q.session = null; combine(q);
+    q.parsed.wholeWord = sessWhole; q.parsed.unknown = sessUnknown;
+    if (q.pending) { const a = q.pending; applyFix(q, a); renderAnswerArea(); setTimeout(() => { if (quiz?.q === q && !q.result) startListening(); }, 250); return; }
+    if (userStopped && q.parsed.letters && !q.parsed.wholeWord && !q.parsed.unknown.length) return grade(q.parsed.letters, 'voice');
+    if (!q.parsed.letters && !q.parsed.wholeWord) q.parsed = null;
+    renderAnswerArea();
   };
   try { rec.start(); listening = true; } catch (err) { toast('Could not start the mic'); }
   renderAnswerArea();
@@ -427,7 +475,7 @@ function commit() {
   if (reasons.length) r.reasons = [...new Set([...(r.reasons || []), ...reasons.map((x) => x.replace(/\s*\(.*\)|\s\d+x$/, ''))])];
   store.save(r);
   store.logAttempt({ id: w.id, word: w.word, level: w.level, mode: quiz.mode, result: res, answer: q.answer || '',
-    method: q.method, override: q.override || null, replays: q.replays, thinkSec: q.thinkSec ?? null, hard: q.hard, transcript: q.transcript || '' });
+    method: q.method, override: q.override || null, replays: q.replays, thinkSec: q.thinkSec ?? null, hard: q.hard, transcript: q.transcriptAll || '' });
 }
 
 function leaveQuiz() { commit(); stopListening(); stopSpeaking(); }
