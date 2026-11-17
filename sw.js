@@ -1,5 +1,5 @@
 // Network-first: always try the latest files (so new deploys show up), fall back to cache offline.
-const CACHE = 'sb-v1.4.0';
+const CACHE = 'sb-v1.4.1';
 self.addEventListener('install', (e) => self.skipWaiting());
 self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch', (e) => {

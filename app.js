@@ -1,7 +1,7 @@
 import { parseTranscript, isCorrect, spelledOut } from './grader.js';
 import { store, dayKey } from './store.js';
 
-export const APP_VERSION = '1.4.0';
+export const APP_VERSION = '1.4.1';
 
 // ───────────────────────── settings (per device) ─────────────────────────
 const DEFAULTS = { v: 2, wordRate: 0.7, talkRate: 0.8, pauseMs: 700, spellVolume: 0.55, thinkSeconds: 8, graduateAfter: 2, voiceURI: '' };
@@ -155,7 +155,8 @@ function renderHome() {
       <button class="big primary" id="practiceBtn">▶ Practice</button>
       <button class="big ${nf ? 'warn' : ''}" id="reviewBtn" ${nf ? '' : 'disabled'}>🔥 Practice focus words (${nf})</button>
     </section>
-    <section class="row">
+    <section class="homegrid">
+      <button class="mid" id="wordsBtn">📚 Word list</button>
       <button class="mid" id="focusBtn">🔥 Focus words</button>
       <button class="mid" id="dashBtn">📊 Dashboard</button>
       <button class="mid" id="settingsBtn">⚙️ Settings</button>
@@ -171,6 +172,7 @@ function renderHome() {
   document.getElementById('practiceBtn').onclick = () => startQuiz('practice');
   document.getElementById('reviewBtn').onclick = () => startQuiz('review');
   document.getElementById('focusBtn').onclick = renderFocus;
+  document.getElementById('wordsBtn').onclick = () => { if (LEVELS.includes(currentLevel)) wl.level = currentLevel; renderWordList(); };
   document.getElementById('dashBtn').onclick = () => renderDashboard('daily');
   document.getElementById('settingsBtn').onclick = renderSettings;
   const lo = document.getElementById('logoutBtn'); if (lo) lo.onclick = () => store.logout();
@@ -183,15 +185,26 @@ let quiz = null;
 // ── Question order ──
 // • Each level has a shuffled "deck" of all its words, saved on this device. Words come in deck order,
 //   so no word repeats until the whole deck has been used — even if the app is closed and reopened.
-// • Focus words get extra turns (about 1 in 5 questions), but only if they were not asked in the
-//   last 10 questions and not in the last 10 minutes.
-// • A word asked in the last 20 minutes (on any device) waits for a later turn.
+// • "Shown" counts too: a word that was skipped was still shown, and waits like an answered word.
+// • A word shown or answered in the last 20 minutes (answers count from any device) waits for a later turn.
+// • Focus words get an extra turn exactly once every 5 questions — the one shown longest ago,
+//   and only if it wasn't shown or answered in the last 30 minutes. A focus word skipped in this
+//   practice doesn't come back in this practice.
 // • Learned words are skipped half the time when their turn in the deck comes (asked less often).
 // • Words switched Off are never asked.
-const DECK_KEY = 'sb_deck_v2', RECENT_KEY = 'sb_recent_v1';
+const DECK_KEY = 'sb_deck_v2', SHOWN_KEY = 'sb_shown_v2';
+const MIN = 60 * 1000;
 const loadJSON = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } };
-function recentIds() { return loadJSON(RECENT_KEY, []); }
-function markAsked(id) { const r = recentIds().filter((x) => x !== id); r.push(id); localStorage.setItem(RECENT_KEY, JSON.stringify(r.slice(-40))); }
+function shownLog() { return loadJSON(SHOWN_KEY, {}); }                    // wordId -> last time shown on this device
+function recentIds() { return Object.entries(shownLog()).sort((a, b) => a[1] - b[1]).map(([id]) => +id); }
+function markAsked(id) {
+  const log = shownLog(); log[id] = Date.now();
+  const keep = Object.entries(log).sort((a, b) => b[1] - a[1]).slice(0, 300); // keep it small
+  localStorage.setItem(SHOWN_KEY, JSON.stringify(Object.fromEntries(keep)));
+}
+const lastSeen = (w) => Math.max(shownLog()[w.id] || 0, store.get(w.id)?.lastAt || 0);
+const seenWithin = (w, minutes) => Date.now() - lastSeen(w) < minutes * MIN;
+
 function fromDeck(level, skip) {
   const ids = WORDS.filter((w) => level === 'All' || w.level === level).map((w) => w.id);
   const decks = loadJSON(DECK_KEY, {});
@@ -200,40 +213,43 @@ function fromDeck(level, skip) {
   if (!valid) d = { order: shuffle([...ids]), pos: 0 };
   for (let guard = 0; guard < ids.length * 2 + 5; guard++) {
     if (d.pos >= d.order.length) {
-      // new round: reshuffle, and don't start the new round with a word that was just asked
-      const last = new Set(recentIds().slice(-10));
+      // new round: reshuffle; words seen most recently go to the back
       const order = shuffle([...ids]);
-      d = { order: [...order.filter((id) => !last.has(id)), ...order.filter((id) => last.has(id))], pos: 0 };
+      d = { order: [...order.filter((id) => !seenWithin(byId.get(id), 60)), ...order.filter((id) => seenWithin(byId.get(id), 60))], pos: 0 };
     }
     const w = byId.get(d.order[d.pos++]);
     if (!w || skip.has(w.id) || isOff(w)) continue;
-    if (guard < ids.length && Date.now() - (store.get(w.id)?.lastAt || 0) < 20 * 60 * 1000) continue;
+    if (status(w) === 'focus') continue;                       // focus words have their own turns
+    if (guard < ids.length && seenWithin(w, 20)) continue;
     if (status(w) === 'learned' && Math.random() < 0.5) continue;
     decks[level] = d; localStorage.setItem(DECK_KEY, JSON.stringify(decks));
     return w;
   }
   decks[level] = d; localStorage.setItem(DECK_KEY, JSON.stringify(decks));
-  return WORDS.find((w) => (level === 'All' || w.level === level) && !isOff(w)) || null;
+  return WORDS.find((w) => (level === 'All' || w.level === level) && !isOff(w) && !skip.has(w.id))
+    || (skip.size ? fromDeck(level, new Set()) : null);
 }
 function pickNext() {
-  const recent = recentIds();
-  const last10 = new Set(recent.slice(-10));
-  const restedLongEnough = (w) => Date.now() - (store.get(w.id)?.lastAt || 0) > 10 * 60 * 1000;
+  const inSession = new Set(quiz.items.map((it) => it.word.id));
   if (quiz.mode === 'review') {
-    // go through every focus word once (shuffled) before repeating any
-    const inNb = (w) => status(w) === 'focus';
-    quiz.queue = (quiz.queue || []).filter(inNb);
+    // go through every (On) focus word once, shuffled, before repeating any
+    quiz.queue = (quiz.queue || []).filter((w) => status(w) === 'focus' && !isOff(w));
     if (!quiz.queue.length) {
+      // new round with every focus word; just don't start it with the word that was asked last
       const lastId = quiz.items[quiz.items.length - 1]?.word.id;
-      quiz.queue = shuffle(focusWords().filter((w) => w.id !== lastId));
-      if (!quiz.queue.length) quiz.queue = focusWords();
+      quiz.queue = shuffle(focusWords());
+      if (quiz.queue.length > 1 && quiz.queue[0].id === lastId) quiz.queue.push(quiz.queue.shift());
     }
     return quiz.queue.shift() || null;
   }
   const inLevel = (w) => currentLevel === 'All' || w.level === currentLevel;
-  const focus = focusWords().filter((w) => inLevel(w) && !last10.has(w.id) && restedLongEnough(w));
-  if (focus.length && Math.random() < 0.2) return pick(focus);
-  return fromDeck(currentLevel, last10);
+  quiz.sinceFocus = (quiz.sinceFocus ?? 0) + 1;
+  if (quiz.sinceFocus >= 5) {
+    const focus = focusWords().filter((w) => inLevel(w) && !inSession.has(w.id) && !seenWithin(w, 30))
+      .sort((a, b) => lastSeen(a) - lastSeen(b));
+    if (focus.length) { quiz.sinceFocus = 0; return focus[0]; }
+  }
+  return fromDeck(currentLevel, inSession);
 }
 
 function startQuiz(mode) {
@@ -624,6 +640,49 @@ function renderFocus() {
     else { r.inNotebook = true; r.graduated = false; toast(`🔥 “${r.word}” moved to Focus words`); }
     r.reviewStreak = 0; r.reasons = [];
     store.save(r); renderFocus();
+  });
+}
+
+// ───────────────────────── word list ─────────────────────────
+// All words of a level in list order, with status, meaning/sentence (tap the word) and an On/Off switch.
+let wl = { level: 'One Bee', q: '' };
+const STATUS_BADGE = { new: '<span class="wbadge new">New</span>', solid: '<span class="wbadge solid">✅ OK</span>',
+  focus: '<span class="wbadge focus">🔥 Focus</span>', learned: '<span class="wbadge learned">🎓 Learned</span>' };
+function renderWordList() {
+  leaveQuiz(); $home.hidden = false;
+  const all = WORDS.filter((w) => w.level === wl.level);
+  const q = wl.q.trim().toLowerCase();
+  const list = q ? all.filter((w) => w.word.toLowerCase().includes(q)) : all;
+  const count = (st) => all.filter((w) => status(w) === st).length;
+  $app.innerHTML = `
+    <div class="tabs">${LEVELS.map((l) => `<button class="tab ${wl.level === l ? 'on' : ''}" data-wl="${l}">${l}</button>`).join('')}</div>
+    <section class="card">
+      <div class="wlsum">${all.length} words · New ${count('new')} · ✅ ${count('solid')} · 🔥 ${count('focus')} · 🎓 ${count('learned')} · Off ${all.filter(isOff).length}</div>
+      <input class="search" id="wlSearch" placeholder="Search a word" value="${esc(wl.q)}" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+      <p class="small muted">Tap a word to see its meaning and sentence. Switch Off = left out of tests.</p>
+      <ol class="wl">
+        ${list.map((w) => { const r = store.get(w.id); const off = isOff(w); const n = all.indexOf(w) + 1; return `
+          <li class="${off ? 'offrow' : ''}">
+            <span class="num">${n}</span>
+            <button class="speak" data-say="${esc(w.word)}">🔊</button>
+            <details class="grow">
+              <summary><b>${esc(w.word)}</b>${w.accepted_spellings.length > 1 ? ` <small class="muted">(or ${w.accepted_spellings.slice(1).map(esc).join(', ')})</small>` : ''}
+                ${STATUS_BADGE[status(w)]}${r?.attempts ? ` <small class="muted">✅${r.correct} ❌${r.wrong}</small>` : ''}</summary>
+              <div class="small"><b>${esc(w.part_of_speech)}</b> — ${esc(w.definition)}</div>
+              <div class="small muted">“${esc(w.sentence)}”</div>
+            </details>
+            <label class="switch"><input type="checkbox" data-wloff="${w.id}" ${off ? '' : 'checked'}><span></span></label>
+          </li>`; }).join('')}
+      </ol>
+      ${list.length ? '' : '<p class="muted">No match.</p>'}
+    </section>`;
+  $app.querySelectorAll('[data-wl]').forEach((b) => b.onclick = () => { wl.level = b.dataset.wl; wl.q = ''; renderWordList(); window.scrollTo(0, 0); });
+  const s = document.getElementById('wlSearch');
+  s.oninput = () => { wl.q = s.value; const pos = s.selectionStart; renderWordList(); const s2 = document.getElementById('wlSearch'); s2.focus(); s2.setSelectionRange(pos, pos); };
+  $app.querySelectorAll('[data-say]').forEach((b) => b.onclick = () => askWord(b.dataset.say));
+  $app.querySelectorAll('[data-wloff]').forEach((c) => c.onchange = () => {
+    const w = byId.get(+c.dataset.wloff); const r = record(w); r.off = !c.checked; store.save(r);
+    c.closest('li').classList.toggle('offrow', !!r.off);
   });
 }
 
